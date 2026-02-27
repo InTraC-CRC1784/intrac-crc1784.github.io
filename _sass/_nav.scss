@@ -1,0 +1,120 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  z-index: 1000;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  animation: fadeDown 0.8s ease-out;
+
+  &__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text);
+  }
+
+  &__title {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--purple);
+    letter-spacing: -0.5px;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    margin: 0;
+
+    a {
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+      font-size: 13px;
+      text-decoration: none;
+      transition: color 0.3s;
+
+      &:hover {
+        color: var(--text);
+      }
+    }
+  }
+
+  &__toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: var(--space-sm);
+    color: var(--text-dim);
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &__mobile {
+    display: none;
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: var(--space-md) 24px;
+
+    &.is-open {
+      display: block;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li { margin: 0; }
+
+    a {
+      display: block;
+      padding: 0.75rem 0;
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+      font-size: 14px;
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+
+      &:hover { color: var(--text); }
+    }
+  }
+}
+
+@keyframes fadeDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+
+@media (max-width: 768px) {
+  .nav__links { display: none; }
+  .nav__toggle { display: block; }
+  .nav__title { font-size: 14px; }
+}

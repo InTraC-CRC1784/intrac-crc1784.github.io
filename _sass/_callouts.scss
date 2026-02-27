@@ -1,0 +1,23 @@
+.callout {
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-lg) var(--space-xl);
+  margin: var(--space-xl) 0;
+  border-left: 4px solid;
+  background: var(--bg-card);
+  border-color: var(--border-accent);
+
+  &--info { border-left-color: var(--indigo); }
+  &--tip { border-left-color: var(--cyan); }
+  &--warning { border-left-color: #fbbf24; }
+  &--danger { border-left-color: var(--rose); }
+
+  p {
+    margin: 0;
+    color: var(--text-mid);
+    font-size: var(--font-size-sm);
+  }
+
+  strong {
+    color: var(--text);
+  }
+}

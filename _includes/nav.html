@@ -1,0 +1,35 @@
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="nav__inner">
+    <a href="{{ '/' | relative_url }}" class="nav__logo" aria-label="InTraC Home">
+      <span class="nav__title">InTraC Knowledge Base</span>
+    </a>
+
+    <ul class="nav__links">
+      <li class="nav__link"><a href="{% if page.layout == 'home' %}#workflows{% else %}{{ '/docs/workflows' | relative_url }}{% endif %}">Workflows</a></li>
+      <li class="nav__link"><a href="{% if page.layout == 'home' %}#training{% else %}{{ '/docs/training' | relative_url }}{% endif %}">Training</a></li>
+      <li class="nav__link"><a href="{% if page.layout == 'home' %}#data-management{% else %}{{ '/docs/data-management' | relative_url }}{% endif %}">Data Management</a></li>
+      <li class="nav__link"><a href="{% if page.layout == 'home' %}#platform{% else %}{{ '/docs/platform' | relative_url }}{% endif %}">Platform</a></li>
+      <li class="nav__link"><a href="{% if page.layout == 'home' %}#services{% else %}{{ '/docs/services' | relative_url }}{% endif %}">Services</a></li>
+      <li class="nav__link"><a href="{% if page.layout == 'home' %}#contact{% else %}mailto:tbd{% endif %}">Contact</a></li>
+    </ul>
+
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6" class="nav__toggle-top"/>
+        <line x1="3" y1="12" x2="21" y2="12" class="nav__toggle-mid"/>
+        <line x1="3" y1="18" x2="21" y2="18" class="nav__toggle-bot"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="nav__mobile" aria-hidden="true">
+    <ul>
+      <li><a href="{% if page.layout == 'home' %}#workflows{% else %}{{ '/docs/workflows' | relative_url }}{% endif %}">Workflows</a></li>
+      <li><a href="{% if page.layout == 'home' %}#training{% else %}{{ '/docs/training' | relative_url }}{% endif %}">Training</a></li>
+      <li><a href="{% if page.layout == 'home' %}#data-management{% else %}{{ '/docs/data-management' | relative_url }}{% endif %}">Data Management</a></li>
+      <li><a href="{% if page.layout == 'home' %}#platform{% else %}{{ '/docs/platform' | relative_url }}{% endif %}">Platform</a></li>
+      <li><a href="{% if page.layout == 'home' %}#services{% else %}{{ '/docs/services' | relative_url }}{% endif %}">Services</a></li>
+      <li><a href="{% if page.layout == 'home' %}#contact{% else %}mailto:tbd{% endif %}">Contact</a></li>
+    </ul>
+  </div>
+</nav>

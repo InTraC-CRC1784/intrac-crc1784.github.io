@@ -1,0 +1,97 @@
+// UMAP-style dot clusters at page edges, connected by collaboration lines
+.bio-umap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  will-change: transform;
+  animation: umapFadeIn 2s ease-out 0.4s forwards;
+
+  // Intra-cluster edges
+  &__edges line {
+    stroke-width: 0.7;
+    opacity: 0.12;
+  }
+
+  &__edges--1 line { stroke: var(--purple); }
+  &__edges--2 line { stroke: var(--rose); }
+  &__edges--3 line { stroke: var(--indigo); }
+
+  // Inter-cluster collaboration bridges
+  &__bridges line {
+    stroke: var(--purple-light);
+    stroke-width: 0.6;
+    opacity: 0.07;
+  }
+
+  &__waypoints circle {
+    fill: var(--purple);
+    opacity: 0.06;
+  }
+
+  // Cluster dots with gentle drift
+  &__cluster--1 {
+    animation: clusterDrift1 20s ease-in-out infinite;
+
+    circle {
+      fill: var(--purple);
+      opacity: 0.16;
+    }
+  }
+
+  &__cluster--2 {
+    animation: clusterDrift2 24s ease-in-out infinite;
+
+    circle {
+      fill: var(--rose);
+      opacity: 0.13;
+    }
+  }
+
+  &__cluster--3 {
+    animation: clusterDrift3 22s ease-in-out infinite;
+
+    circle {
+      fill: var(--indigo);
+      opacity: 0.11;
+    }
+  }
+}
+
+@keyframes umapFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes clusterDrift1 {
+  0%, 100% { transform: translate(0, 0); }
+  33% { transform: translate(3px, -4px); }
+  66% { transform: translate(-2px, 3px); }
+}
+
+@keyframes clusterDrift2 {
+  0%, 100% { transform: translate(0, 0); }
+  33% { transform: translate(-4px, 2px); }
+  66% { transform: translate(3px, -3px); }
+}
+
+@keyframes clusterDrift3 {
+  0%, 100% { transform: translate(0, 0); }
+  33% { transform: translate(2px, 4px); }
+  66% { transform: translate(-3px, -2px); }
+}
+
+@media (max-width: 768px) {
+  .bio-umap {
+    &__cluster--1 circle { opacity: 0.09; }
+    &__cluster--2 circle { opacity: 0.07; }
+    &__cluster--3 circle { opacity: 0.06; }
+    &__edges line { opacity: 0.06; }
+    &__bridges line { opacity: 0.04; }
+    &__waypoints circle { opacity: 0.03; }
+  }
+}

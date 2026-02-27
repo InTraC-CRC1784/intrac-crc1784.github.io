@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% include hero.html %}
+
+
+<section class="section">
+  <div class="container">
+    <div class="page-layout">
+      <!-- Sidebar for parent pages -->
+      {% if page.has_children %}
+      <aside class="sidebar" aria-label="Section navigation">
+        <h4 class="sidebar__title">{{ page.title }}</h4>
+        <ul class="sidebar__links">
+          {% assign children = site.pages | where: "parent", page.title | sort: "nav_order" %}
+          {% for child in children %}
+          <li>
+            <a href="{{ child.url | relative_url }}" {% if page.url == child.url %}class="active"{% endif %}>
+              {{ child.title }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </aside>
+      {% endif %}
+
+      <!-- Main content -->
+      <div class="content-area {% unless page.has_children %}content-area--full{% endunless %}">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

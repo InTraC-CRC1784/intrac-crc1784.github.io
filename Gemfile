@@ -1,0 +1,11 @@
+source "https://rubygems.org"
+
+gem "webrick"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
+gem "jekyll", "~> 4.3.0"
+gem "jekyll-sass-converter", "~> 2.0"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"

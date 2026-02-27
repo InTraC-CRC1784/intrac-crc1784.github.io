@@ -1,0 +1,118 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  {% include hero.html %}
+
+
+  <!-- Section: Workflows -->
+  <div class="section content-section" id="workflows">
+    <div class="section-header">
+      <h2>Workflows</h2>
+      <div class="line"></div>
+    </div>
+    <div class="content-section__header fade-in-up">
+      <div>
+        <h3 class="content-section__title">Unified data analysis workflows for genomics data</h3>
+        <p class="content-section__subtitle">Provide unified interoperable omics workflows built on Nextflow and nf-core, ensuring reproducibility across environments.</p>
+        <a href="{{ '/docs/workflows' | relative_url }}" class="section-link">Explore workflows <span>&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Section: Training -->
+  <div class="section content-section" id="training">
+    <div class="section-header">
+      <h2>Training</h2>
+      <div class="line"></div>
+    </div>
+    <div class="content-section__header fade-in-up">
+      <div>
+        <h3 class="content-section__title">Training resources to get up to speed with data analysis</h3>
+        <p class="content-section__subtitle">Courses from beginner to advanced for all InTraC researchers. Learn R/Python, Linux/HPC, single-cell analysis, multi-omics integration, and more.</p>
+        <a href="{{ '/docs/training' | relative_url }}" class="section-link">View courses <span>&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Section: Data Management -->
+  <div class="section content-section" id="data-management">
+    <div class="section-header">
+      <h2>Data Management</h2>
+      <div class="line"></div>
+    </div>
+    <div class="content-section__header fade-in-up">
+      <div>
+        <h3 class="content-section__title">Data management in the InTraC knowledge base</h3>
+        <p class="content-section__subtitle">FAIR-compliant data management for all consortium projects. Integrates heterogeneous omics datasets from humans and animal species with standardised metadata schemas, cross-species integration, and version control.</p>
+        <a href="{{ '/docs/data-management' | relative_url }}" class="section-link">Learn more <span>&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Section: Platform -->
+  <div class="section content-section" id="platform">
+    <div class="section-header">
+      <h2>Analysis Platform</h2>
+      <div class="line"></div>
+    </div>
+    <div class="content-section__header fade-in-up">
+      <div>
+        <h3 class="content-section__title">The interactive InTraC data analysis platform</h3>
+        <p class="content-section__subtitle">Leverage breakthroughs in large language models to provide a tailored interactive system for complex multi-omics queries and target discovery. Natural language queries in English and German, cross-project exploration, and interactive visualisation.</p>
+        <a href="{{ '/docs/platform' | relative_url }}" class="section-link">Try the platform <span>&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Section: Services -->
+  <div class="section content-section" id="services">
+    <div class="section-header">
+      <h2>Services</h2>
+      <div class="line"></div>
+    </div>
+    <div class="content-section__header fade-in-up">
+      <div>
+        <h3 class="content-section__title">Data analysis services</h3>
+        <p class="content-section__subtitle">Provide consulting and integrative bioinformatic data analysis service to enable researchers to analyse, interpret, and integrate data across projects.</p>
+        <a href="{{ '/docs/services' | relative_url }}" class="section-link">Learn more <span>&rarr;</span></a>
+      </div>
+    </div>
+    <div class="content-section__services fade-in-up">
+      <div class="service-block">
+        <h3 class="service-block__title">Consulting</h3>
+        <p class="service-block__text">Short-term expert advice on experimental design, analysis strategy, and tool selection.</p>
+      </div>
+      <div class="service-block">
+        <h3 class="service-block__title">Mentoring</h3>
+        <p class="service-block__text">Ongoing guidance, code review, and hands-on support for your analysis projects.</p>
+      </div>
+      <div class="service-block">
+        <h3 class="service-block__title">Analysis as a service</h3>
+        <p class="service-block__text">End-to-end bioinformatic analysis from raw data through to publication-ready results.</p>
+      </div>
+    </div>
+  </div>
+
+  {% if content != "" %}
+  <div class="section">
+    <div class="container--narrow content-area">
+      {{ content }}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Contact CTA -->
+  <div class="section" id="contact" style="text-align: center; padding-top: 40px; border-top: 1px solid var(--border);">
+    <h2 style="margin-bottom: var(--space-md);">Need help with your data?</h2>
+    <p style="max-width: 500px; margin: 0 auto var(--space-2xl);">We provide consulting, mentoring and full bioinformatic analysis for all InTraC projects.</p>
+    <a href="mailto:tbd" class="btn btn--primary">Get in Touch</a>
+  </div>
+
+</div>

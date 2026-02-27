@@ -1,0 +1,18 @@
+{% comment %}
+Usage: {% include callout.html type="info" title="Note" content="Your message here." %}
+Types: info, tip, warning, danger
+{% endcomment %}
+<div class="callout callout--{{ include.type | default: 'info' }}">
+  <span class="callout__icon" aria-hidden="true">
+    {% case include.type %}
+      {% when 'tip' %}&#x2705;
+      {% when 'warning' %}&#x26A0;&#xFE0F;
+      {% when 'danger' %}&#x1F6D1;
+      {% else %}&#x2139;&#xFE0F;
+    {% endcase %}
+  </span>
+  <div class="callout__content">
+    {% if include.title %}<strong>{{ include.title }}</strong>{% endif %}
+    <p>{{ include.content }}</p>
+  </div>
+</div>
