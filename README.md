@@ -2,12 +2,44 @@
 
 The website for **Data, Software & Computing Platform** of the InTraC Collaborative Research Centre (CRC 1784).
 
+## Prerequisites
+
+You need **Ruby** and **Bundler** installed to run the site locally.
+
+### macOS
+
+```bash
+# install Homebrew if you don't have it
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# install Ruby
+brew install ruby
+
+# add Ruby to your PATH (add this to your ~/.zshrc as well)
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+# install Bundler
+gem install bundler
+```
+
+### Ubuntu / WSL
+
+```bash
+sudo apt update
+sudo apt install ruby-full build-essential
+gem install bundler
+```
+
+### Windows
+
+Install Ruby via [RubyInstaller](https://rubyinstaller.org/) (select the version with Devkit). Bundler is included.
+
 ## Quick start
 
 ```bash
 # clone the repo
-git clone git@github.com:InTraC-CRC1784/intrac-website.git
-cd intrac-website
+git clone git@github.com:InTraC-CRC1784/intrac-kb-website.git
+cd intrac-kb-website
 
 # install dependencies
 bundle install
@@ -16,7 +48,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Site will be at `http://localhost:4000`.
+Site will be at `http://localhost:4000`. Changes to files are picked up automatically — just refresh your browser.
 
 ## How to edit content
 
@@ -81,7 +113,7 @@ Styles live in `_sass/`. The main file is `_sass/style.scss`. Only edit if you n
 
 ## Deployment
 
-Push to `main` and GitHub Actions will rebuild the site automatically via GitHub Pages.
+For now, preview the site locally with `bundle exec jekyll serve`. GitHub Pages deployment will be enabled once the repo is made public.
 
 ## Contact
 
