@@ -15,7 +15,7 @@ nav_order: 4
 
 &nbsp;
 
-The [NEFELI platform](https://nefeli.helmholtz-muenchen.de) at Helmholtz Zentrum München is a FAIR-compliant research data repository for structured publication, long-term archiving, and reuse of research datasets.
+The [NEFELI platform](https://nefeli.helmholtz-munich.de) at Helmholtz Zentrum München is a FAIR-compliant research data repository for structured publication, long-term archiving, and reuse of research datasets.
 
 &nbsp;
 
