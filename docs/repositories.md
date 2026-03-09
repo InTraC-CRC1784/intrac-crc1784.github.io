@@ -2,7 +2,7 @@
 layout: page
 title: "Repositories"
 description: "All InTraC software on GitHub"
-nav_order: 7
+nav_order: 8
 icon: "💻"
 ---
 

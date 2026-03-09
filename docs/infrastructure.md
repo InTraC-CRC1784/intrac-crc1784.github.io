@@ -2,7 +2,7 @@
 layout: page
 title: "Infrastructure"
 description: "HPC computing resources for InTraC"
-nav_order: 8
+nav_order: 9
 icon: "🏗️"
 ---
 
