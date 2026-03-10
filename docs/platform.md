@@ -10,3 +10,5 @@ nav_order: 5
 &nbsp;
 
 <p style="text-align: center; font-size: 1.3em;"><em>Coming soon</em></p>
+
+<iframe src="http://localhost:8502" width="100%" height="500px"></iframe>
