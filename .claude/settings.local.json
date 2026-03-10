@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebSearch",
-      "WebFetch(domain:nf-co.re)",
-      "WebFetch(domain:github.com)"
-    ]
-  }
-}

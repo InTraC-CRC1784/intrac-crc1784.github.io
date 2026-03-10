@@ -11,4 +11,13 @@ nav_order: 5
 
 <p style="text-align: center; font-size: 1.3em;"><em>Coming soon</em></p>
 
-<iframe src="http://localhost:8502" width="100%" height="500px"></iframe>
+<div style="position: relative;">
+  <a href="http://localhost:8502" target="_blank" 
+     style="position:absolute; top:8px; right:8px; z-index:10; 
+            background:rgba(75, 75, 154, 0.6); backdrop-filter:blur(4px);
+            color:#fff; padding:6px 12px; 
+            border-radius:6px; text-decoration:none; font-size:0.8rem;">
+    Open full page ↗
+  </a>
+  <iframe src="http://localhost:8502" width="100%" height="500px" style="border:none; border-radius:8px;"></iframe>
+</div>
