@@ -5,6 +5,8 @@ description: "LLM-powered interactive multi-omics exploration"
 nav_order: 5
 ---
 
+{% include callout.html type="warning" title="Under Development" content="This web resource is still under active development. Content may be incomplete or subject to change." %}
+
 <p style="font-size: 1.15em;">An interactive analysis platform for exploring multi-omics data across all InTraC projects — powered by agent-based large language models and a unified knowledge graph.</p>
 
 &nbsp;

@@ -6,6 +6,8 @@ nav_order: 9
 icon: "🏗️"
 ---
 
+{% include callout.html type="warning" title="Under Development" content="This web resource is still under active development. Content may be incomplete or subject to change." %}
+
 All InTraC computational workflows run on institutional High-Performance Computing (HPC) infrastructure, providing scalable resources for large-scale omics analyses.
 
 ![HPC Infrastructure overview](/assets/images/hpc-infrastructure.svg)

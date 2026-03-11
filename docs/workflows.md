@@ -5,6 +5,8 @@ description: "Standardised, reproducible analysis workflows for all major sequen
 nav_order: 2
 ---
 
+{% include callout.html type="warning" title="Under Development" content="This web resource is still under active development. Content may be incomplete or subject to change." %}
+
 <p style="font-size: 1.15em;">Support for selecting, setting up, and running analysis workflows — from pipeline configuration and custom parameterisation to integration into your project.</p>
 
 &nbsp;

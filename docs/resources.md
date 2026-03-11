@@ -5,6 +5,8 @@ description: "Shared experimental resources available across InTraC projects"
 nav_order: 7
 ---
 
+{% include callout.html type="warning" title="Under Development" content="This web resource is still under active development. Content may be incomplete or subject to change." %}
+
 <p style="font-size: 1.15em;">Overview of shared experimental resources available to InTraC consortium members, including mouse strains, protocols, antibodies, and PET tracers.</p>
 
 &nbsp;

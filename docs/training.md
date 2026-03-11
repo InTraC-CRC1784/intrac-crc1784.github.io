@@ -5,6 +5,8 @@ description: "Courses from beginner to advanced for all InTraC researchers"
 nav_order: 3
 ---
 
+{% include callout.html type="warning" title="Under Development" content="This web resource is still under active development. Content may be incomplete or subject to change." %}
+
 <p style="font-size: 1.15em;">A comprehensive training programme to equip all InTraC researchers with the computational skills needed for modern multi-omics research.</p>
 
 &nbsp;
