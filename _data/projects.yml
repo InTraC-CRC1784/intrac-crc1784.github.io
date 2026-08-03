@@ -1,0 +1,306 @@
+# InTraC (CRC 1784) projects — source for the /intrac/ page.
+# Summaries are VERBATIM from the source ODT (docs/InTraC website draft 9.07.26 JP.odt).
+# Titles/PIs from the project overview table. Set `accepting: true` to show a Recruiting badge.
+# accent/ink sampled from each figure's header band (Part A green · B amber · Z teal).
+
+- code: A01
+  part: A
+  title: "Role of TET2-mediated clonal hematopoiesis in thromboinflammation"
+  accepting: false
+  accent: "#68a489"
+  ink: "#ffffff"
+  pis:
+    - name: "Dr. Joachim Pircher"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+    - name: "Prof. Dr. Christian Schulz"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+  summary:
+    - "Clonal hematopoiesis of indeterminate potential (CH) is a proinflammatory condition linked to aging and increased cardiovascular risk, resulting from somatic mutations in hematopoietic stem cells and leading to mutant leukocyte clones with heightened inflammatory activity. While CH is associated with cardiovascular diseases like atherosclerosis and heart failure, the role of frequent CH variants in thrombotic disorders is not fully understood. Our prior findings revealed that Jak2VF CH promotes thrombosis through myeloid cell activation and platelet production. This research aims to clarify how CH variants may affect thrombosis and thromboinflammation, using mouse models of cardiovascular events and human patient samples. The study will focus on platelet and myeloid cell contributions, employing advanced imaging, omics, and pharmacological interventions to identify pathways that could be targeted for personalized therapies to reduce thrombotic risk in CH patients."
+
+- code: A02
+  part: A
+  title: "Targeting tissue factor in thromboinflammatory signalling"
+  image: A02.png
+  accepting: true
+  accent: "#68a488"
+  ink: "#ffffff"
+  pis:
+    - name: "PD Dr. Nadine Müller-Calleja"
+      affiliation: "Institut für Klinische Chemie und Laboratoriumsmedizin, JGU Mainz"
+    - name: "Prof. Dr. Wolfram Ruf"
+      affiliation: "Centrum für Thrombose und Hämostase, JGU Mainz"
+  summary:
+    - "Initiation of coagulation by the tissue factor (TF) pathway plays a pivotal role in the host defence against infections, while TF expressed by monocytes and macrophages amplifies thrombo-inflammation. The TF signalling complexes include factor (F) X, FVII, TF pathway inhibitor (TFPI), the endothelial protein C receptor (EPCR), integrins, and protease activated receptor (PAR) 1 and 2. Our recent studies uncovered a crucial function of EPCR and TF signalling in toll-like receptor (TLR) 7 autoimmune pathologies elicited by antiphospholipid antibodies (aPL), leading to thrombo-inflammatory complications of the antiphospholipid syndrome (APS). Remarkably, specific targeting of the TF initiation complex with the nematode anticoagulant protein c2 (NAPc2), but not the clinically approved anticoagulant heparin, suppressed the synthesis of interferon (IFN) α by dendritic cells (DC) and the TLR7 driven expansion of B1 cells producing aPL. Chronic viral infections are linked to cardiovascular diseases and lipid-reactive B1 cells also expand persistently in mice with latent murine cytomegalovirus (mCMV) infection. Our preliminary data demonstrate that the development of lipid-reactive aPL depends on TF-FVIIa expressed by myeloid cells and precedes the antigen maturation towards cross-reactivity with lipid binding proteins, such as β2-glycoprotein 1 (β2GPI). While the development of lipid-reactive aPL requires cleavage of PAR1 and PAR1/PAR2 heterodimer signalling, cleavage insensitivity of PAR2 specifically prevents the appearance of antibodies cross-reactive with β2GPI. In addition, this autoimmune antibody evolution requires TLR4 and cGAS-STING-IFN signalling but is not selectively influenced by loss of the mitochondrial antiviral signalling (MAVS) adaptor dependent cytosolic sensing of RNA. In Aim 1, we will characterize the cell type specific roles of TF and EPCR and the contributions of TF coagulation initiation complex components to the development and persistence of aPL subclasses. Conditional knock-out mice will be employed to define the innate immune cells that are targeted by TF inhibitor mediated immunomodulation in vivo. A particular focus will be on distinguishing monocyte and DC involvement in the progression of APS autoimmune pathology. Aim 2 will dissect the distinct nucleic acid sensing pathways in the initial TF-TLR7 dependent expansion of lipid-reactive aPL and in the TF-PAR2-TLR4 dependent progression of autoimmune antibody development. We will dissect these pathways with genetic mouse models and test the overall hypothesis that autoantibody maturation and persistence of autoimmune disease is driven by NETosis and thrombo-inflammation."
+
+- code: A03
+  part: A
+  title: "Circadian regulation of immunothrombosis and thromboinflammation"
+  image: A03.png
+  accepting: true
+  accent: "#68a489"
+  ink: "#ffffff"
+  pis:
+    - name: "Prof. Dr. Maria Robles"
+      affiliation: "Institut für Medizinische Psychologie, LMU Munich"
+    - name: "PD Dr. Leo Nicolai"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+  summary:
+    - "Many physiological processes, including metabolism and immune defense, follow circadian rhythms regulated by internal clocks. Myeloid cells - key players in immunothrombosis - exhibit circadian fluctuations in phenotype, frequency, and distribution in both humans and mice. Similarly, many proteins involved in coagulation and the complement system are produced in the liver and follow hepatic circadian rhythms. This indicates that critical cellular as well as molecular elements of immunothrombosis and thromboinflammation are under circadian control. Concomitantly, our preliminary studies using a murine endotoxemia model revealed time-of-day-dependent variations in disease outcomes, platelet-leukocyte interactions, and the neutrophil proteome, all aligning with diurnal patterns of thromboinflammatory activity. Based on this, we hypothesize that:"
+    - "Immunothrombotic and thromboinflammatory responses vary with time of day: These variations are driven by circadian changes in immune cell–platelet interactions and systemic regulation via liver-derived factors. Uncovering these mechanisms could yield new pathophysiological insights and treatment strategies."
+    - "To test these hypotheses, we propose three main research aims: Aim 1: We will study circadian effects in murine disease models by conducting experiments at different Zeitgeber times (ZTs). For protective immunothrombosis, we will use an E. coli bacteremia (ECB) model, where innate immunity and platelets cooperate to limit bacterial spread. We will assess thrombus formation, leukocyte and platelet recruitment, extent of tissue damage, and systemic inflammation. For harmful thromboinflammation, we will use a vena cava stenosis model, inducing deep vein thrombosis (DVT)) in mice, measuring thrombus progression via ultrasound, and assessing histology and systemic coagulation/inflammation markers. Both models will be complemented with in vitro analyses of platelet, immune cell, and coagulation as well as complement function across time points. Aim 2: We will explore the molecular drivers of circadian regulation at the inflammation-coagulation interface. This includes phosphoproteomic and proteomic profiling of sorted neutrophils, monocytes, platelets, and hepatocytes from the disease models. Bioinformatic data integration will identify key circadian regulatory pathways and map molecular interdependencies. We aim to distinguish between the circadian regulation of sterile thromboinflammation and infection-triggered immunothrombosis. Based on promising findings, we will evaluate time-of-day-tailored interventions using anticoagulants, anti-complement therapies, and inhibitors of platelet–immune cell interactions during high-risk time windows. We will also validate key pathways in patient cohorts with DVT or gram-negative sepsis to enhance translational relevance. Aim 3: Using conditional knockout models, we will assess the role of systemic and tissue-specific circadian clocks in thromboinflammation. These include globally arrhythmic mice (Cry1/Cry2KO) and cell-specific BMAL1flox knockouts in the platelet lineage (Gp1bCre), myeloid cells (LysMCre), and hepatocytes (AlbuminCre). These models will be analyzed within the established DVT and ECB frameworks."
+
+- code: A04
+  part: A
+  title: "Translating hibernation-induced thromboprotective mechanisms: from bears to patients"
+  image: A04.png
+  accepting: true
+  accent: "#68a387"
+  ink: "#ffffff"
+  pis:
+    - name: "Dr. Johannes Bruno Müller-Reif"
+      affiliation: "Max-Planck-Institut für Biochemie, Planegg"
+    - name: "Prof. Dr. Tobias Petzold"
+      affiliation: "Deutsches Herzzentrum der Charité, Berlin"
+  summary:
+    - "Venous thromboembolism (VTE), comprising deep venous thrombosis and pulmonary embolism, is a major cause of morbidity and mortality and results in tremendous health care costs. Immobility and bed rest are among the best-known risk factors for VTE, driving thrombosis in these prototypic thromboinflammatory diseases. Paradoxically, long-term immobilized hibernating brown bears and spinal cord-injured patients appear to evade the inherent threat of thromboembolic disease during immobilization. We recently introduced the concept of long-term immobility-induced thromboprotection, representing a resilience mechanism that prevents thrombosis development under immobility that is conserved across species - from hibernating brown bears and spinal cord-injured patients to bed-resting individuals."
+    - "We identified a thromboprotective platelet signature, with HSP47 being the most abundantly downregulated protein during hibernation and long-term immobility in bears. Downregulation of HSP47 attenuated thromboinflammation by reducing platelet-driven NET formation by neutrophils (Thienel, Muller-Reif, et al., 2023). In this project, we will build on these preliminary data to define additional, unexplored thromboprotective mechanisms within the cellular thromboinflammatory compartment, focusing on innate immune and endothelial cells. We hypothesize that neutrophils and endothelial cells develop a thromboprotective phenotype, protecting the individual from thrombosis. To achieve this, we will leverage our cross-species approach combined with state-of-the-art proteome and cross-species proteome analyses including deep visual proteomics to investigate endothelial cells and neutrophils. With this we will characterize new hibernation-regulated mediators of thromboinflammation (Aim 1), define the translational and clinical significance of the uncovered mechanisms (Aim 2) and explore the therapeutic potential of our findings (Aim 3). In a second step, we will study the clinical relevance of our identified thromboprotective trajectories in patients with VTE and other thromboinflammatory diseases beyond immobility, including myocardial infarction and stroke . Finally, we will investigate the therapeutic potential of targeting long-term immobility-regulated mechanisms for clinical application in disease models using state-of-the-art imaging techniques."
+
+- code: A05
+  part: A
+  title: "The role of microbiota-derived tryptophan metabolites in promoting thromboinflammation after stroke"
+  image: A05.png
+  accepting: true
+  accent: "#69a58a"
+  ink: "#1a1a2e"
+  pis:
+    - name: "Dr. Corinne Benakis"
+      affiliation: "Institut für Schlaganfall- und Demenzforschung, LMU Munich"
+    - name: "Prof. Dr. Christoph Reinhardt"
+      affiliation: "Centrum für Thrombose und Hämostase, JGU Mainz"
+  summary:
+    - "This project investigates the role of the gut microbiota in driving thromboinflammation following ischemic stroke, a major cause of mortality and disability. Despite evidence linking the microbiome to both thrombosis and post-stroke inflammation, the specific mechanisms remain unclear. Microbial metabolites are key molecules, exclusively derived from the microbiome, that have important immunomodulatory properties. In this project, we aim to join our expertise in microbiome, thromboinflammation and stroke research to elucidate how microbiota-derived metabolites modulate immune and vascular responses to exacerbate stroke pathology. Previous work indicates a critical role of the gut microbiome in modulating stroke outcomes via regulation of the immune response (Benakis et al., 2016). In addition, unpublished data demonstrate an increase in tryptophan-derived metabolites in the gut post-stroke, with high levels linked to poor stroke outcomes. On the other hand, we showed that gut microbiota promotes thrombus formation via Toll-like receptor (TLR) pathways. This highlights a mechanistic link between microbial metabolites and post-stroke thromboinflammation. To determine the underlying mechanisms in detail, we developed three aims: Aim 1: Dissect thromboinflammatory mechanisms mediated by microbial metabolites, using engineered bacterial strains and metabolite supplementation in gnotobiotic mice. Aim 2: Characterize the role of TLR signalling in mediating thromboinflammation via myeloid and endothelial cells using transcriptomic profiling and genetically modified mouse models. Aim 3: Translating the findings to human relevance, using faecal microbiota transplantation from stroke patients into germ-free mice and correlating results with patient inflammatory profiles. This project is profoundly integrated into the CRC, leveraging complementary expertise: the Reinhardt lab (Mainz) brings outstanding knowledge in gnotobiotic and thrombosis mouse models, while the Benakis lab (Munich) contributes experience in murine stroke models and microbiota-host interaction. Close collaboration with other InTraC groups will enhance mechanistic understanding and enables translation using disease models and samples derived from stroke patients."
+
+- code: A06
+  part: A
+  title: "Dissecting and targeting platelet GPIb-V-IX function in thrombo-inflammation"
+  image: A06.png
+  accepting: true
+  accent: "#69a58a"
+  ink: "#1a1a2e"
+  pis:
+    - name: "Dr. Sarah Beck"
+      affiliation: "Institut für Experimentelle Biomedizin und Rudolf-Virchow-Zentrum, JMU Würzburg"
+    - name: "Prof. Dr. Bernhard Nieswandt"
+      affiliation: "Institut für Experimentelle Biomedizin und Rudolf-Virchow-Zentrum, JMU Würzburg"
+  summary:
+    - "Platelets are essential mediators of hemostasis and thrombosis but also play key roles in thrombo-inflammatory pathologies. The platelet-specific mechanoreceptor complex GPIb-IX-V is central to these processes as it mediates platelet recruitment to sites of injury or inflammation, platelet interaction with immune cells and the coagulation system as well as shear-dependent platelet adhesiveness. However, the molecular and cellular mechanisms underlying these multiple functions remain incompletely understood, mainly because signalling downstream of the receptor has been difficult to study. A membrane-proximal, so-called mechanosensitive domain (MSD) within GPIb has recently been proposed to critically regulate receptor function, yet direct experimental evidence supporting this model is lacking."
+    - "We have shown that targeting the N-terminal ligand binding domain (LBD) of mouse GPIbα with the antibody p0p/BFab potently protects mice from arterial thrombosis and thromboinflammatory tissue damage in a wide range of disease models. Notably, in some of these pathologies GPIb promotes thromboinflammation independently of its major ligands (von Willebrand factor [vWF], CD62P, Mac-1), suggesting the involvement of previously unrecognized mechanisms. We further demonstrated that dimerization of the GPIbα ectodomain induces platelet adhesiveness independently of classical signalling pathways in vitro and leads to rapid platelet clearing due to sequestration in liver, spleen, lung and other organs in vivo. We postulate that divalent ligation of GPIbα triggers ultrarapid (´allosteric´) exposure of adhesive neo-epitopes within its ectodomain facilitating interactions with other platelets, immune cells and/or the vessel wall independent of transmembrane signalling and known ligands. Our data further indicates that GPV modulates this non-classical adhesive function. In this project, we will employ transgenic knockout/-in and novel humanized mouse models, along with antibody-based modulators of GPIb-IX and GPV to 1) delineate the functional relevance of GPIbα-LBD and MSD for classical and non-classical adhesiveness and study the contribution of GPV to GPIb-IX ´activation´, 2) investigate the functional relevance of the GPIbα-LBD / MSD / trigger sequence in immunothrombosis and thromboinflammation and 3) develop experimental therapeutic strategies to modulate these functions."
+
+- code: A07
+  part: A
+  title: "Neutrophils regulate platelet production – impact on cardiovascular and infectious diseases"
+  image: A07.png
+  accepting: true
+  accent: "#69a388"
+  ink: "#ffffff"
+  pis:
+    - name: "PD Dr. Manuela Thienel"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+    - name: "Prof. Dr. Steffen Massberg"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+  summary:
+    - "Beyond their established role in haemostasis, platelets are an essential part of the immune defence against pathogens. They maintain vascular integrity, capture microbes, and orchestrate immune responses. Given these diverse functions, the homeostasis of circulating platelet numbers is vital - particularly during infection and inflammation, when platelets are consumed as they perform their defensive tasks. Platelets are produced predominantly in the bone marrow (BM) by megakaryocytes (MKs) through a two-step process: megakaryopoiesis, the differentiation and maturation of MK progenitors, and thrombopoiesis, the physical release of platelets into the circulation. Thrombopoietin (TPO) regulates megakaryopoiesis by promoting MK differentiation and maturation through an endocrine feedback loop. However, because TPO acts at this upstream developmental level rather than directly controlling thrombopoiesis, its response is too slow to compensate for the rapid platelet consumption that occurs during inflammation or infection. We recently identified a fast-acting mechanism operating at the level of thrombopoiesis: activated neutrophils physically interact with intravascular MK extensions (“proplatelets”) in a process termed neutrophil plucking, which accelerates platelet release and promotes the generation of newly formed, reticulated platelets. While this neutrophil-driven mechanism supports platelet homeostasis under stress, it becomes pathologically amplified in thromboinflammatory conditions such as myocardial infarction (MI), leading to the excessive production of platelets and increased thrombotic risk. The molecular pathways, the contribution of distinct neutrophil subsets, and the relevance of neutrophil plucking in cardiovascular and infectious diseases remain incompletely understood. Our project aims to elucidate the molecular mechanisms and functional consequences of neutrophil-driven BM thrombopoiesis: In Aim 1, we will define the molecular pathways and neutrophil subsets controlling plucking-induced platelet release, focusing on ROS-dependent signalling and membrane-remodelling machineries using in vitro assays and in vivo intravital imaging. In Aim 2, we will determine how neutrophil-driven thrombopoiesis contributes to thrombotic outcomes in sterile (MI, stroke) and infectious inflammation, assessing both primary and recurrent thrombotic risk. In Aim 3, we will characterize the molecular and functional profiles of reticulated „young“ platelets released through neutrophil plucking and link their phenotypes to thromboinflammatory outcomes, identifying potential targets for selective therapeutic modulation."
+
+- code: A08
+  part: A
+  title: "Directed platelet migration as driver of immunothrombosis"
+  image: A08.png
+  accepting: true
+  accent: "#63977c"
+  ink: "#ffffff"
+  pis:
+    - name: "PD Dr. Hellen Ishikawa-Ankerhold"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+    - name: "Prof. Dr. Florian Gaertner"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+  summary:
+    - "Platelets are increasingly recognized as active regulators of host defense. They migrate to sites of infection, capture pathogens, and modulate immune responses. While platelet migration supports bacterial clearance, excessive platelet activity promotes neutrophil hyperactivation and deleterious thromboinflammation in sepsis. The mechanisms guiding platelet migration in inflamed tissues, as well as the triggers that convert physiological migration into pathological hyperactivation, remain largely unknown. We hypothesize that tissue-specific mosaics of chemoattractants, including chemokines, complement factors, lipids, and/or bacterial products, are critical to instruct migrating platelets and thereby regulate platelet-bacteria-leukocyte interactions, fostering host defense. At the same time, we propose that systemic and uncontrolled release of such chemoattractants, as observed in sepsis, may lead to dysregulated platelet recruitment and promote pathological thromboinflammation."
+    - "To address this, we will (1) identify environmental cues and cellular mechanisms of platelet chemotaxis during inflammation and infection using microengineered assays, proteomics, and intravital imaging; (2) define the functional role of platelet migration in vivo during bacterial infection, sepsis, and sterile inflammation; and (3) investigate the role of NETosis-driven formation of infection/inflammation-primed platelet subpopulations shaped by plasmacytoid dendritic cell-dependent megakaryopoiesis. This approach will not only provide fundamental mechanistic insight into platelet migration and pro-inflammatory platelet production but is expected to reveal novel, selective therapeutic strategies to suppress pathological thromboinflammation without impairing physiological hemostasis."
+
+- code: B01
+  part: B
+  title: "Thromboinflammation at the cerebrovascular interface: linking inflammation and neurological deterioration after stroke"
+  image: B01.png
+  accepting: true
+  accent: "#fac283"
+  ink: "#1a1a2e"
+  pis:
+    - name: "Dr. Stefan Roth"
+      affiliation: "Institut für Schlaganfall- und Demenzforschung, LMU Munich"
+    - name: "Prof. Dr. Arthur Liesz"
+      affiliation: "Institut für Schlaganfall- und Demenzforschung, LMU Munich"
+  summary:
+    - "Thromboinflammation represents a pivotal pathophysiological process after ischemic stroke, acting as a mechanistic bridge between local vascular injury and systemic immune dysregulation. Following arterial occlusion and reperfusion, the ischemic neurovascular unit releases a cascade of dan-ger signals that activate platelets, neutrophils, and endothelial cells, leading to the formation of plate-let–neutrophil aggregates, NET release, and contact pathway activation. These events amplify neuroinflammation and simultaneously propagate systemic immune activation, contributing to second-ary vascular comorbidities and increased risk of infection and recurrent stroke."
+    - "Despite strong experimental and clinical evidence for these associations, the spatial and temporal dynamics that connect intracranial thromboinflammation to systemic immune responses remain unresolved. It is unknown when and where local vascular inflammation transitions into systemic propagation, which cell types and mediators orchestrate this process, and whether these interactions constitute a continuous and therapeutically accessible cascade."
+    - "The central goal of this project is therefore to define the molecular and cellular circuits that drive alarmin-mediated thromboinflammation after stroke and to establish their translational relevance. We will specifically address three interlinked questions: (1) Which brain-derived alarmins initiate post-stroke thromboinflammation? (2) How do these signals propagate from the cerebral vasculature into systemic immune dysregulation? (3) Can therapeutic targeting of these pathways be validated in translational disease models and human stroke cohorts?"
+
+- code: B02
+  part: B
+  title: "Thromboinflammation in stroke – a (reverse)-translational study to identify circulating biomarkers and treatment targets"
+  image: B02.png
+  accepting: true
+  accent: "#fac282"
+  ink: "#1a1a2e"
+  pis:
+    - name: "PD Dr. Steffen Tiedt"
+      affiliation: "Institut für Schlaganfall- und Demenzforschung, LMU Munich"
+    - name: "Prof. Dr. Martin Dichgans"
+      affiliation: "Institut für Schlaganfall- und Demenzforschung, LMU Munich"
+  summary:
+    - "Thromboinflammation is a major driver of reperfusion injury and stroke progression in experimental models, but how these findings translate to patients with ischemic stroke remains elusive. Current diagnostics cannot resolve when and in whom thromboinflammatory cascades are active after reperfusion. Previous clinical studies mostly focused on single markers and were cross-sectional, limiting insights into timing and systems-level biology. In preliminary work, we performed proteomics on paired plasma-thrombus samples from acute stroke patients and identified a central role of the interplay of innate immunity with coagulation and platelet activation during thrombus formation: compared to other clinical traits, systemic inflammation (WBC/CRP) correlated with the largest set of thrombus proteins, which were enriched for innate immune pathways and platelet signalling. Using network analysis, we identified Inositol 1,4,5-Trisphosphate Receptor Type 1 (ITPR1) as a hub linking neutrophil and platelet degranulation. In recently published cross-ancestry stroke GWAS, we further identified druggable nodes (e.g., kallikrein B1 [KLKB1], fibrinogen alpha chain [FGA], coagulation factor XI [F11]) across thromboinflammatory pathways. These findings underscore the critical role of thromboinflammation in stroke pathogenesis and progression, which, however, remains clinically inaccessible. To address this challenge, the overarching goal of our project is to deliver clinically meaningful biomarker signatures that detect, monitor and stratify thromboinflammation in acute ischemic stroke. To this end, we will apply a deep, time-resolved molecular phenotyping approach that combines advanced omics technologies in patients with stroke with parallel mechanistic investigations in experimental stroke models to: i) discover multicellular thromboinflammatory signatures in patients with acute ischemic stroke and causally link these to endophenotypes in experimental models, ii) genetically prioritize and (reverse) translate biomarker candidates, and iii) independently validate prioritized biomarkers in two complementary cohorts, thereby paving the way for clinical trials targeting thromboinflammation in stroke and beyond."
+
+- code: B03
+  part: B
+  title: "The role of Bruton's tyrosine kinase in thromboinflammation"
+  image: B03.png
+  accepting: true
+  accent: "#ecc184"
+  ink: "#1a1a2e"
+  pis:
+    - name: "PD Dr. Philipp von Hundelshausen"
+      affiliation: "Institut für Prophylaxe und Epidemiologie der Kreislaufkrankheiten, LMU Munich"
+    - name: "Prof. Dr. Christian Weber"
+      affiliation: "Institut für Prophylaxe und Epidemiologie der Kreislaufkrankheiten, LMU Munich"
+  summary:
+    - "The COVID-19 pandemic has taught us that the mechanisms of the close and clinically significant interplay between inflammation and thrombosis are still not fully understood. Both SARS-CoV-2 infection and vaccine-related complications such as vaccine-induced immune thrombotic thrombocytopenia (VITT) caused severe thrombotic events, often resistant to standard therapies. Bruton’s tyrosine kinase (Btk), selectively expressed by immune cells and platelets, has emerged as a central signalling molecule in these processes. As a key mediator in platelets, B cells and myeloid cells, Btk links innate and adaptive immunity to thrombosis, emphasizing the need to explore its potential as a critical therapeutic target. Our previous work showed that Btk is essential for platelet activation elicited by chemokine-IgG immune complexes, as in heparin-induced thrombocytopenia (HIT) and VITT through FcγRIIa signalling. Additionally, the chemokine CXCL12, released from activated platelets, amplifies arterial thrombosis through CXCR4-Btk signalling in an autocrine loop. We found that small molecule Btk inhibitors (BTKi) effectively block Btk-dependent platelet activation in human, pig, and mouse models, enabling translational research across species."
+    - "We propose that Btk regulates thromboinflammation and its resolution across multiple cell types so that understanding its cell-specific roles and blocking its activity selectively in platelets can provide new strategies to prevent and treat thrombotic complications. Aim 1 focuses on dissecting the cell-specific roles of Btk in thromboinflammation. We will use conditional knockout mouse models to analyse Btk function in platelets (Pf4cre), B cells (CD19cre), and myeloid cells (LyzMcre), along with global knockout approaches (tm1a). Through functional in vitro assays, including NETosis, platelet migration, and using in vivo models of thrombosis and thrombus resolution (arterial, venous), we will determine the relative contributions of Btk in different cell types. Complementary transcriptomic and proteomic analyses of platelets and megakaryocytes (MKs) will elucidate downstream pathways. Blood from patients with X-linked agammaglobulinemia (XLA), carrying Btk mutations, will be used to assess platelet responses, linking human data to murine models. Aim 2 will explore strategies to selectively target Btk in platelets to prevent arterial thrombosis and stent thrombosis in a pig model. We will use a chandler-loop system and a porcine stent implantation model to study BTKi effects in comparison and combination with dual antiplatelet therapy (DAPT). We aim to develop platelet-specific Btk inhibition (Btki) approaches by exploiting the limited protein synthesis capacity of platelets. To this end, we will evaluate different dosing regimens of BTKi and we plan to develop pharmacokinetic profiles. We will explore strategies to block Btk in a platelet-specific manner and will initiate this by investigating RNA-uptake and knockdown mechanisms starting with cultured MK and modulation of a reporter to pave the way for later in vivo RNA interference (RNAi). This will be initiated by exploring RNA delivery to MK in reporter mice through anti-CD41 antibodies conjugated to an RNAi. Aim 3 will investigate the role of Btk in chemokine-mediated signalling, focusing on CXCR4 activation by CXCL12 identifying common and distinct pathways in myeloid cells and platelets. We will use phosphoproteomic profiling to analyse and validate downstream intermediates and specifically test candidates such as Gβγ, Syk, Janus kinases, and p66Shc. We will assess the involvement of Btk and downstream signalling in leukocyte chemotaxis and in platelet locomotion using BTK-deficient mice and inhibitors, probing chemokine-driven thrombosis mechanisms. Given the role of platelet-neutrophil interactions and neutrophil extracellular trap (NET) formation in thromboinflammation, we will evaluate how platelet-derived chemokines (CXCL4, CXCL12, CCL5) and their receptors contribute to NETosis. Approaches such as platelet-specific Btk deletion, BTKi, chemokine heteromer disruption, will be tested for their capacity to interrupt pathological thromboinflammatory cascades."
+
+- code: B04
+  part: B
+  title: "Stasis-induced endothelial activation and thromboinflammation: implications for atrial fibrillation and venous thrombosis"
+  image: B04.png
+  accepting: true
+  accent: "#fac283"
+  ink: "#1a1a2e"
+  pis:
+    - name: "PD Dr. Magdalena Bochenek"
+      affiliation: "Centrum für Thrombose und Hämostase, JGU Mainz"
+    - name: "Dr. Daniel Reichart"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+  summary:
+    - "Thromboembolism remains a leading cause of death worldwide. Atrial fibrillation (AF) markedly increases the risk of cardioembolic stroke and systemic embolism, while deep vein thrombosis (DVT) can progress to pulmonary embolism. Despite their distinct clinical manifestations, AF- and DVT-associated thrombosis share a central pathogenic trigger: local blood stasis. Blood stasis induces local and systemic thromboinflammatory shifts, including procoagulant and proinflammatory reprogramming of endothelial cells (ECs) and circulating immune cells, thereby promoting thrombus formation. However, the molecular and cellular mechanisms driving these stasis-induced EC phenotypes - particularly within the left atrial appendage (LAA), the predominant site of thrombus formation in AF, and in venous stasis - remain poorly understood. We hypothesize that blood stasis induces distinct EC-specific thromboinflammatory programs characterized by the expression and surface presentation of adhesive and procoagulant molecules that shape a local microenvironment promoting immune cell and platelet recruitment and activation. To address this hypothesis, we leverage our unique human LAA and venous tissue biobank obtained during cardiac and vascular surgeries, integrated with complementary mouse models of AF and DVT. Our preliminary single-nucleus RNA sequencing (snRNA-seq) analyses of human LAAs reveal distinct EC activation signatures in AF compared with sinus rhythm (SR), providing a strong foundation for systematic investigation. Building on these data, this project will (Aim 1) define EC-specific thromboinflammatory signatures associated with AF and venous blood stasis across human tissues and relevant animal model systems; (Aim 2) mechanistically dissect the functional relevance of prioritized endothelial pathways using integrated in vivo, in vitro, and ex vivo approaches; and (Aim 3) therapeutically evaluate key endothelial–immune interaction mechanisms as entry points for the selective modulation of thromboinflammation at sites of reduced blood flow in AF and DVT."
+
+- code: B05
+  part: B
+  title: "Endothelial cell signalling in thromboinflammation"
+  image: B05.png
+  accepting: false
+  accent: "#f9c07e"
+  ink: "#1a1a2e"
+  pis:
+    - name: "Dr. Olympia Bikou"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+    - name: "Prof. Dr. Katrin Schäfer"
+      affiliation: "Zentrum für Kardiologie, JGU Mainz"
+  summary:
+    - "Endothelial cells (ECs) are central in the control of vascular function, inflammation and thrombosis. Previously, we established a role for angiogenesis and endothelial angiogenic signalling in venous thrombus resolution: We identified disease candidates and potential therapeutic targets in the transforming growth factor beta receptor families, that is TGFβ and bone morphogenetic protein (BMP). Our InTraC project now addresses the hypothesis that endothelial receptor signalling mediates thromboinflammation in an organ-specific manner and that lung-specific endothelial responses drive pulmonary thromboinflammation, remodelling after pulmonary embolism and pulmonary hypertension (PH). First, we aim to identify lung-specific endothelial RNA expression signatures in response to deep vein stasis, hypoxia, and angiogenesis inhibition, conditions that induce thromboinflammation and vascular remodelling in the lung. These pulmonary expression profiles will be compared to RNA profiles from systemic ECs to identify lung-specific endothelial responses that drive pulmonary thromboinflammation and remodelling after pulmonary embolism. New targets will be validated in biomaterial (primary ECs, precision cut lung slices, plasma) of patients with PH, with and without thrombosis, as well as in rodent and pig disease models. Second, we will dissect lung endothelial-specific roles of TGFβ and BMP receptors (TGFRB2, BMPR2) during pulmonary thromboinflammation and adverse remodelling."
+
+- code: B06
+  part: B
+  title: "Non-classical monocytes as local orchestrators of the thrombotic milieu during the transition from thrombus formation to resolution"
+  image: B06.png
+  accepting: true
+  accent: "#fac282"
+  ink: "#1a1a2e"
+  pis:
+    - name: "Dr. Kami Pekayvaz"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+    - name: "Prof. Dr. Sabine Steffens"
+      affiliation: "Institut für Prophylaxe und Epidemiologie der Kreislaufkrankheiten, LMU Munich"
+  summary:
+    - "Thromboinflammation can cause obstruction of both the macro- and microvasculature. While macrovascular thrombosis is amenable to interventional or surgical treatment, microvascular thrombosis often leads to organ failure without effective therapeutic options. A prominent example is myocardial no-reflow, where thrombotic occlusion of the microvasculature persists despite successful reopening of the epicardial vessel after myocardial infarction. Monocytes have emerged as central cellular drivers of thromboinflammation in both microvascular and macrovascular thrombosis. In the myocardial circulation, monocytes and macrophages can promote detrimental microvascular occlusion and worsen outcomes after reperfusion. These observations establish monocytes as key mediators of thrombotic injury."
+    - "Beyond this pathogenic role, our recent work uncovered a previously unrecognized functional heterogeneity of monocyte subsets within human thrombi. By constructing a leukocyte atlas of human and murine thrombosis, we identified non-classical, NR4A1high monocytes with pronounced fibrinolytic activity, coexisting with prothrombotic monocyte populations. Reverse translation to mouse models demonstrated that these non-classical monocytes actively remodel the thrombus microenvironment through direct thrombolysis and recruitment of fibrinolytic neutrophils. These findings highlight the dual - protective and harmful - potential of distinct monocyte subsets in microvascular and macrovascular thrombotic disease. However, the mechanisms governing their functional polarization during thrombus resolution remain poorly understood."
+    - "We hypothesize that local non-classical monocytes act as central modulators of the micro- and macrovascular thrombotic milieu and actively orchestrate the transition from thromboinflammation to thrombus resolution. We further propose that known inflammatory pathways, highly expressed in thrombus-resolving monocytes, can influence monocyte function beyond their canonical inflammatory roles and determine whether monocytes skew toward prothrombotic or resolving roles. Targeting this balance represents a novel therapeutic strategy to control thromboinflammation and promote immunothrombolysis. To test this hypothesis we will employ a macrovascular model of thrombosis (flow-reduction induced deep vein thrombosis by inferior vena cava stenosis) and a complementary microvascular model of thrombotic occlusion, mimicking clinical no-reflow (induced by myocardial ischemia and reperfusion (MIRI)  and investigate the following aims: Aim 1: Characterize monocyte recruitment, expansion, and differentiation cues after micro- or macrovascular thrombotic disease induction. Aim 2: Define the functional consequences of highly expressed thrombus monocyte inflammatory pathways for clot formation and resolution in vitro. Aim 3: Determine the in vivo relevance of highly expressed inflammatory monocyte signalling pathways (Myd88 and TREM1) for macro- and microvascular clot formation and resolution."
+
+- code: B07
+  part: B
+  title: "Engineering immune cells as micropharmacies for microvascular thrombolysis"
+  image: B07.png
+  accepting: true
+  accent: "#fac282"
+  ink: "#1a1a2e"
+  pis:
+    - name: "Prof. Dr. Sebastian Kobold"
+      affiliation: "Institut für Klinische Pharmakologie, LMU Munich"
+    - name: "Prof. Dr. Christoph Reichel"
+      affiliation: "Klinik für Hals-Nasen-Ohrenheilkunde, LMU Munich"
+  summary:
+    - "Microvascular thrombosis is a hallmark of advanced inflammatory disease and frequently prevents full recovery after thromboinflammatory events. However, safe and effective treatment options for the dissolution of blood clots in the microvasculature are still missing. This is exemplified by fatal disease courses in COVID-19 with this condition, despite conventional coagulation- and platelet-targeting therapies. In addition to platelets and plasmatic coagulation, immune cells substantially contribute to the formation of microvascular thrombi. Own preliminary data show that immune cells actively infiltrate existing microvascular clots to promote thrombus stabilization and expansion. In the proposed project, we aim at establishing novel immune cell-based concepts for microvascular thrombolysis. Here, we will first decipher the mechanisms underlying immune cell-driven persistence and progression of microvascular clots. These studies will generate specific molecular targets, which will enable us to engineer immune cells endowed with i) distinct thrombolytic properties and ii) a molecular repertoire guiding these ‘cellular drugs’ selectively into blood clots. These armed immune cells will serve as novel therapeutics for the targeted dissolution of microvascular thrombi in advanced inflammatory disorders that specifically address thromboinflammation without exhibiting systemic adverse effects such as life-threatening bleeding complications. The ultimate vision behind this concept is an off-the-shelf approach, in which such strategy would be readily available and applicable to the patients in need."
+
+- code: B08
+  part: B
+  title: "Thromboinflammatory mechanisms of pancreatitis progression and associated splanchnic and portal vein thrombosis"
+  image: B08.png
+  accepting: true
+  accent: "#fac282"
+  ink: "#1a1a2e"
+  pis:
+    - name: "Prof. Dr. Julia Mayerle"
+      affiliation: "Medizinische Klinik und Poliklinik II, LMU Munich"
+    - name: "PD Dr. Rainer Kaiser"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+  summary:
+    - "The role of platelet-neutrophil interplay in pancreatitis as mediator of inflammation and splanchnic and portal vein thrombosis, though critically involved in disease progression and severity, remains largely unexplored. This project aims to define the thromboinflammatory mechanisms involved in pancreatitis and, specifically, pancreatitis-associated splanchnic and portal vein thrombosis formation in mice and patients. We hypothesize that the delicate balance between thrombus formation and prevention of bleeding in pancreatitis is shaped by two interlinked mechanisms: (i) the excessive extracellular activation of serine proteases activating the coagulation cascade, and (ii), reciprocal activation of platelets and neutrophils during an overwhelming systemic inflammatory response. Both mechanisms, though obviously crucial and amenable to treatment, have not been studied in pancreatitis and associated splanchnic or portal vein thrombosis."
+    - "Our focus will be on the role of platelets and platelet-neutrophil interplay as critical contributors to pancreatitis-associated thromboinflammation. We will perform functional phenotyping of platelet and neutrophil activation in mice and patients with pancreatitis and correlate our findings with the incidence of pancreatitis-associated thromboinflammation. Specifically, using ex vivo tissue analysis and contrast-enhanced CT angiography, we will comprehensively assess local and systemic thrombotic complications during pancreatitis and correlate their occurrence with platelet and immune phenotypes derived from multiOmics profiling. Further, with respect to our preliminary experiments, we will investigate the role of acid sphingomyelinase (ASM/SMPD1) in activation of platelets and neutrophils and concurrent disease progression of pancreatitis as amenable treatment target. Based on these findings, we will use targeted nanoparticles for cell-specific delivery of SMPD1 inhibitors in a novel therapeutic, anti-inflammatory approach for pancreatitis."
+
+- code: B09
+  part: B
+  title: "siRNA therapy targeting endothelial IgM receptors to treat and prevent thromboinflammation"
+  image: B09.png
+  accepting: true
+  accent: "#fac283"
+  ink: "#1a1a2e"
+  pis:
+    - name: "Prof. Dr. Olivia Merkel"
+      affiliation: "Department Pharmazie, LMU Munich"
+    - name: "Prof. Dr. Konstantin Stark"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+  summary:
+    - "Activation of endothelial cells (ECs) is a key initiator of immunothrombosis and thromboinflammation. It leads to platelet and leukocyte recruitment, which are key cellular factors in the interplay of thrombosis and inflammation and drive deep venous thrombosis (DVT). In parallel, activation alters the effect of ECs on the coagulation system, which further exacerbates thrombotic states. Thus, selective targeting of activated ECs represents an attractive strategy for therapeutic and preventive measures in thromboinflammatory diseases. However, the upstream factors activating ECs and their impact on the transition from immunothrombosis to thromboinflammation are poorly understood. In preliminary work, we identified a central role for IgM-EC interaction in initiating DVT under conditions of reduced blood flow. This relies on the binding of IgM to the endothelial IgM receptors FcµR and polymeric Immunoglobulin receptor (pIgR). As a consequence, ECs are activated and mobilise P-selectin and von Willebrand Factor (vWF) to their surface. This initiates leukocyte and platelet recruitment to the vessel wall. Combined inhibition of pIgR and FcµR completely prevents experimental DVT in a mouse model. Despite these findings, the mechanisms of IgM mediated endothelial activation are largely unknown and will be dissected in this proposal. In addition, we will evaluate whether disruption of IgM-endothelium interaction could be exploited for pharmacologic intervention in thromboinflammation. We will employ a targeted drug delivery approach aiming to specifically deliver siRNA to activated ECs for gene silencing of endothelial IgM receptors. This is based on our expertise in the generation of polybetaaminoester nanoparticles (PBAE-NC), which are targeted through ligand peptides to specific receptors. Moreover, they can be loaded with siRNA for gene silencing in their target cell. Based on this, we will develop and optimize EC-targeted siRNA PBAE-NC in vitro (aim 1). In aim 2, we will perform comprehensive pharmacodynamic and -kinetic profiling to investigate how siRNA-loaded nanoparticles can be targeted to inflamed ECs in vivo to downregulate pIgR and FcµR by post-transcriptional gene silencing. In a translational approach, we will determine how gene silencing can be exploited for the inhibition of experimental DVT. In aim 3, we will dissect the signalling of IgM receptors resulting in endothelial activation to identify additional targets for siRNA development."
+
+- code: Z01
+  part: Z
+  title: "Data integration and analysis service platform for target and biomarker discovery"
+  image: Z01.png
+  accepting: false
+  accent: "#81c5df"
+  ink: "#1a1a2e"
+  pis:
+    - name: "Prof. Dr. Solveig Vieluf"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+    - name: "Dr. Matthias Heinig"
+      affiliation: "Institute of Computational Biology, Helmholtz Zentrum München"
+  summary:
+    - "MultiOmics characterization of tissues and cells provides an integrated, high-resolution map of the molecular pathways that connect inflammation and thrombosis. This systems-level understanding is a critical foundation for discovering new targets and biomarkers in immunothrombosis and thromboinflammation. Z01 provides a comprehensive data, software and computing platform as well as customised consulting and expert service to facilitate the implementation of systems biology approaches within and across the scientific projects. By enabling the discovery of new therapeutic targets and biomarkers for diagnosis, this integration across projects creates unique opportunities for translation that go far beyond what is possible in individual projects. Substantial multiOmics resources on thrombosis and inflammation from humans and different animal species already exist in InTraC and will be expanded within the proposed projects. However, the integration and interactive analysis of heterogeneous multiOmics remain challenging. Functional genomics and proteomics data will be leveraged to dissect the molecular pathways shared between and distinct for specific disease entities which will enable target discovery and diagnosis of immunothrombosis and thromboinflammation. Therefore, Aim 1 is to provide unified interoperable multiOmics workflows and the InTraC knowledge base as a platform for data management and integration. Aim 2 is to leverage current breakthroughs in large language models to provide a tailored and easy-to-use interactive system to facilitate complex queries adapted to multiOmics data across datasets from multiple projects to enable target discovery. Aim 3 is to provide consulting and integrative bioinformatic data analysis service to enable researchers in all projects to analyse, interpret, and integrate their data across projects."
+
+- code: Z02
+  part: Z
+  title: "Large animal disease models of immunothrombosis and thromboinflammation for target validation, imaging diagnostics, and therapeutic testing"
+  image: Z02.png
+  accepting: true
+  accent: "#82c5df"
+  ink: "#1a1a2e"
+  pis:
+    - name: "Prof. Dr. Daphne Merkus"
+      affiliation: "Walter-Brendel-Zentrum für Experimentelle Medizin & ICON, LMU Munich"
+    - name: "PD Dr. Sebastian Clauss"
+      affiliation: "Medizinische Klinik und Poliklinik I, LMU Munich"
+    - name: "Prof. Dr. Eckhard Wolf"
+      affiliation: "Genzentrum, LMU Munich"
+    - name: "Prof. Dr. Matthias Brendel"
+      affiliation: "Klinik für Nuklearmedizin, LMU Munich"
+    - name: "Prof. Dr. Rudolf Werner"
+      affiliation: "Klinik für Nuklearmedizin, LMU Munich"
+  summary:
+    - "Translation of mechanistic discoveries in thromboinflammation into diagnostic and therapeutic strategies requires validation in clinically relevant large-animal models using approaches directly transferable to human care. Swine represent the ideal species for this purpose, given their close similarity to humans in immune and coagulation pathways and the near-identical size, anatomy, and physiology of the cardiovascular system. These parallels allow the application of clinical imaging modalities and invasive procedures (e.g., catheterization, electrophysiological studies) as well as the use of therapeutic agents with comparable pharmacokinetics in pigs and humans. Despite this potential, dedicated porcine models for thromboinflammation remain underdeveloped, primarily because they require highly specialized infrastructure and expertise - capabilities now uniquely available at ICON. Leveraging the complementary expertise of the Z02 project leaders in large-animal experimentation and transgenic pig generation, together with state-of-the-art facilities at ICON (catheter lab, CT, MRI, PET/CT) and the Department of Nuclear Medicine (cyclotron, radiotracer development), this central service project will establish a comprehensive platform for translational large-animal modelling and imaging. The goal of Z02 is to empower all CRC projects to translate mechanistic insights from in vitro and small-animal systems into validated diagnostic, interventional, and therapeutic concepts, by providing access to pig models that closely replicate human thromboinflammatory disease."
+

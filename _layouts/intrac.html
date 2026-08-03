@@ -1,0 +1,293 @@
+---
+layout: default
+---
+{% comment %}
+  Standalone applicant-facing page for the InTraC consortium (CRC 1784).
+  Interim host while the official CRC website is under construction.
+  All prose is verbatim from docs/InTraC website draft 9.07.26 JP.odt.
+  Project data (verbatim summaries + figure-sampled colours) in _data/projects.yml.
+  Styles in _sass/_intrac.scss. Remove this file + intrac.md + _data/projects.yml
+  + _sass/_intrac.scss (and its @import) + assets/images/projects/ + the nav link
+  to fully revert the site to the Knowledge Base.
+{% endcomment %}
+
+<section class="hero hero--page intrac-hero">
+  <div class="container">
+    <div class="hero__content">
+      <img src="{{ '/assets/images/Logo_InTraC.png' | relative_url }}" alt="InTraC logo" class="intrac-hero__logo" />
+      <p class="intrac-hero__eyebrow">DFG Collaborative Research Centre (SFB) 1784 · Funding period 2026–2030</p>
+      <h1 class="hero__page-title">{{ page.title }}</h1>
+      <p class="hero__description">The Interplay of Thrombosis and Inflammation: translating molecular mechanisms into clinical applications.</p>
+    </div>
+  </div>
+</section>
+
+<nav class="intrac-subnav" aria-label="On this page">
+  <div class="container intrac-subnav__inner">
+    <a href="#about">About</a>
+    <a href="#programme">Programme</a>
+    <a href="#projects">Projects</a>
+    <a href="#protrac">ProTraC</a>
+    <a href="#apply" class="intrac-subnav__cta">How to apply</a>
+  </div>
+</nav>
+
+<div class="container intrac">
+
+  {% include callout.html type="info" title="Interim applicant information" content="While the official CRC 1784 website is under construction, this page hosts information about the InTraC consortium and its projects for prospective applicants. Open positions and the application procedure are described below." %}
+
+  <!-- ══════════════════════════ ABOUT ══════════════════════════ -->
+  <section id="about" class="intrac-section">
+    <div class="section-header"><h2>About InTraC</h2><div class="line"></div></div>
+
+    <div class="intrac-prose">
+      <h3>The clinical challenge</h3>
+      <p>Thromboinflammation is the central pathogenic mechanism driving myocardial infarction, stroke, and venous thromboembolism, the most common and deadly cardiovascular diseases (CVDs). Despite established preventive measures targeting platelets and coagulation, thrombotic CVDs remain the leading cause of morbidity and mortality. Moreover, thrombosis can complicate disease entities beyond classical CVD, as during infections and inflammatory disorders. This underscores the urgent need to improve our mechanistic understanding of how thromboinflammation is initiated and amplified in different disease settings. Moreover, new approaches are needed to diagnose, prevent, and treat thromboinflammation.</p>
+
+      <h3>From immunothrombosis to thromboinflammation</h3>
+      <p>Recent work by members of this collaborative research Center (CRC) initiative InTraC and others has catalysed a paradigm shift by revealing that thrombosis does not only involve platelet and coagulation activation but is tightly linked to the immune system. Conversely, thrombosis shapes immune responses through reciprocal crosstalk between classical coagulation pathways and key immune factors. This bidirectional alliance of inflammation and thrombosis constitutes an evolutionary conserved emergency strategy termed immunothrombosis, which is critical for host defence against infections by limiting pathogen entry and spread. When dysregulated, however, this protective response transitions into thromboinflammation, amplifying both thrombotic and inflammatory responses and causing severe tissue damage in CVD as well as infectious and inflammatory diseases. Prototypical examples include severe COVID-19 and autoimmune diseases, in which thromboinflammation is a critical driver of organ damage.</p>
+
+      <h3>Our mission</h3>
+      <p>The central conceptual mission of InTraC is to advance the mechanistic understanding of the reciprocal interplay between thrombosis and inflammation, with the overarching goal of enabling diagnosis as well as targeted prevention and treatment of thromboinflammation. To achieve this, InTraC unites internationally leading scientists to drive discoveries at the interface of inflammation and thrombosis. This consortium will move the field beyond the state-of-the-art by:</p>
+      <ul>
+        <li>Combining its outstanding mechanistic expertise with a clear translational agenda,</li>
+        <li>Implementing systems-level approaches through multiOmic and bioinformatic network analyses of animal and human biospecimens,</li>
+        <li>Using innovative large animal disease models combined with cutting-edge translational imaging approaches, as well as</li>
+        <li>Developing advanced therapeutics, including small molecule inhibitors, RNA therapeutics, gene therapy and cell therapeutics.</li>
+      </ul>
+      <p>The strategic composition of InTraC uniquely bridges cutting-edge mechanistic discovery with patient-centered translation. This will create an unprecedented collaborative infrastructure essential to achieve InTraC’s long-term translational goal: to pioneer precise diagnostics and targeted therapeutics for thromboinflammatory diseases.</p>
+
+      <h3>Key questions</h3>
+      <p>Building on the central aim of precise modulation of thromboinflammatory cascades to prevent and treat disease, InTraC will address the following fundamental questions that determine whether immunothrombosis preserves host defence or becomes pathological thromboinflammation:</p>
+      <ul>
+        <li>Which mechanisms confer the physiological, host-protective functions of immunothrombosis?</li>
+        <li>Which signals drive or limit the transition from protective immunothrombosis to detrimental thromboinflammation?</li>
+        <li>How does local thromboinflammation propagate systemic immune activation and organ-specific injury in cardiovascular, infectious, and inflammatory diseases?</li>
+        <li>Which circulating, cellular, or imaging biomarkers enable early detection and risk prediction of thromboinflammation?</li>
+        <li>Can next-generation therapeutic modalities selectively target thromboinflammation without compromising physiological haemostasis or host defence?</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ PROGRAMME ══════════════════════════ -->
+  <section id="programme" class="intrac-section">
+    <div class="section-header"><h2>Programme structure</h2><div class="line"></div></div>
+    <p class="intrac-lead">The individual projects are assigned to one of two programme sections according to their content orientation, with either a focus on mechanistic principles (Part A) or on their exploitation for therapeutic and diagnostic purposes (Part B). They are supported and connected by the central projects (Part Z).</p>
+
+    <div class="intrac-poverview intrac-poverview--a">
+      <span class="intrac-poverview__tag">Part A</span>
+      <div>
+        <h3 class="intrac-poverview__title">Molecular mechanisms of immunothrombosis and thromboinflammation</h3>
+        <p>Part A of InTraC will test the hypothesis that pathogenic thromboinflammation arises from dysregulation of molecular and cellular checkpoints that normally constrain immune–thrombotic interactions during protective immunothrombosis. The central collaborative milestone is the discovery and validation of novel molecular and cellular targets controlling the transition from protective immunothrombosis to detrimental thromboinflammation. Moreover, the projects will define the cellular and molecular mediators that govern thromboinflammatory responses using advanced in vitro systems and small-animal models.</p>
+      </div>
+    </div>
+    <div class="intrac-poverview intrac-poverview--b">
+      <span class="intrac-poverview__tag">Part B</span>
+      <div>
+        <h3 class="intrac-poverview__title">Targeting immunothrombosis and thromboinflammation in disease</h3>
+        <p>Part B translates mechanistic insights into diagnostic and therapeutic strategies across cardiovascular, inflammatory, and infectious disease models, with cross-species validation in small and large animal models and in human biosamples.</p>
+      </div>
+    </div>
+    <div class="intrac-poverview intrac-poverview--z">
+      <span class="intrac-poverview__tag">Part Z</span>
+      <div>
+        <h3 class="intrac-poverview__title">Central service projects and the integrated research training group</h3>
+        <p>Z01 provides interoperable multiOmics workflows and the InTraC knowledge base, with AI-driven, cross-species data integration for target and biomarker discovery. Z02 offers large-animal disease models and advanced imaging for preclinical validation at ICON.</p>
+      </div>
+    </div>
+
+    <div class="intrac-twocol">
+      <div class="intrac-prose">
+        <h3>The integrated research training group ProTraC</h3>
+        <p>The integrated research training group ProTraC delivers a structured qualification programme for PhD and MD candidates, embedded in the Munich Medical Research School (MMRS). It provides a translational training programme for PhD and MD candidates covering lectures, seminars, and hands-on workshops in mechanistic studies, clinical medicine, and bioinformatics. <a href="#protrac">See the programme &amp; how to apply →</a></p>
+        <h3>Research environment: ICON</h3>
+        <p>InTraC is anchored by the new research building ICON (Interfaculty Center for Endocrine and Cardiovascular Disease Network Modelling and Clinical Transfer) as a unique translational research center at the LMU Großhadern Campus. ICON provides disease models and integrated multimodal imaging (PET-CT, photon-counting CT, and high-field MRI). This is linked to an on-site radiopharmacy and genome-editing platform serving as a central engine for preclinical validation of diagnostics and therapeutics emerging from InTraC.</p>
+      </div>
+
+      <aside class="intrac-consortium">
+        <h3 class="intrac-consortium__title">Consortium</h3>
+        <p class="intrac-consortium__intro">CRC 1784 unites LMU Munich as coordinating university with partners at the Center for Thrombosis and Haemostasis and the Department of Cardiology at Johannes Gutenberg University (JGU) Mainz, the University of Würzburg, the Max Planck Institute of Biochemistry, Helmholtz Munich, and Charité Berlin.</p>
+        <dl class="intrac-consortium__people">
+          <dt>Spokesperson</dt><dd>Prof.&nbsp;Dr.&nbsp;med.&nbsp;Steffen Massberg</dd>
+          <dt>Co-Spokesperson</dt><dd>Prof.&nbsp;Dr.&nbsp;med.&nbsp;Konstantin Stark</dd>
+          <dt>IRTG ProTraC speakers</dt><dd>PD&nbsp;Dr.&nbsp;Hellen Ishikawa-Ankerhold and Prof.&nbsp;Dr.&nbsp;Konstantin Stark</dd>
+          <dt>CRC office</dt><dd>Dr.&nbsp;Jeanine Pestoni and Dr.&nbsp;Stephanie Regenfelder</dd>
+        </dl>
+        <p class="intrac-consortium__note">Medizinische Klinik und Poliklinik I, LMU Klinikum München</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ PROJECTS ══════════════════════════ -->
+  <section id="projects" class="intrac-section">
+    <div class="section-header"><h2>Projects &amp; principal investigators</h2><div class="line"></div></div>
+    <p class="intrac-lead">Eight mechanistic projects (Part A), nine disease-oriented projects (Part B), and two central service projects plus the integrated research training group (Part Z).</p>
+
+    {% assign open_projects = site.data.projects | where: "accepting", true %}
+    {% if open_projects.size > 0 %}
+      <p class="intrac-openflag"><strong>Currently recruiting:</strong>
+        {% for p in open_projects %}<a href="#{{ p.code | downcase }}">{{ p.code }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
+      </p>
+    {% else %}
+      <p class="intrac-openflag intrac-openflag--none">Open positions are listed with the individual projects, where it is stated which projects are currently recruiting. Projects that are recruiting are flagged with a <span class="intrac-badge intrac-badge--inline">Recruiting</span> badge.</p>
+    {% endif %}
+
+    {% assign parts = "A,B,Z" | split: "," %}
+    {% for part in parts %}
+      {% assign part_projects = site.data.projects | where: "part", part %}
+      <div class="intrac-part intrac-part--{{ part | downcase }}">
+        <h3 class="intrac-part__heading">
+          <span class="intrac-part__letter">Part {{ part }}</span>
+          {% case part %}
+            {% when 'A' %}Molecular mechanisms of immunothrombosis and thromboinflammation
+            {% when 'B' %}Targeting immunothrombosis and thromboinflammation in disease
+            {% when 'Z' %}Central service projects and integrated research training group
+          {% endcase %}
+        </h3>
+
+        {% for proj in part_projects %}
+        <article class="intrac-project" id="{{ proj.code | downcase }}" style="--accent: {{ proj.accent }}; --ink: {{ proj.ink }};">
+          <div class="intrac-project__head">
+            <span class="intrac-project__code" style="background: {{ proj.accent }}; color: {{ proj.ink }};">{{ proj.code }}</span>
+            <div class="intrac-project__meta">
+              <h4 class="intrac-project__title">{{ proj.title }}</h4>
+              <p class="intrac-project__pis">
+                {% for pi in proj.pis %}{{ pi.name | replace: 'Prof. ', 'Prof.&nbsp;' | replace: 'PD ', 'PD&nbsp;' | replace: 'Dr. ', 'Dr.&nbsp;' | replace: 'med. ', 'med.&nbsp;' }}{% unless forloop.last %} · {% endunless %}{% endfor %}
+              </p>
+            </div>
+            {% if proj.accepting %}<span class="intrac-badge">Recruiting</span>{% endif %}
+          </div>
+
+          {% if proj.image %}
+          <figure class="intrac-project__figure" style="border-color: {{ proj.accent }};">
+            <img src="{{ '/assets/images/projects/' | append: proj.image | relative_url }}"
+                 alt="Graphical abstract of project {{ proj.code }}: {{ proj.title }}" loading="lazy" />
+          </figure>
+          {% endif %}
+
+          <div class="intrac-project__body">
+            {% for para in proj.summary %}<p>{{ para }}</p>{% endfor %}
+          </div>
+
+          <p class="intrac-project__affils">
+            {% for pi in proj.pis %}<span>{{ pi.name | replace: 'Prof. ', 'Prof.&nbsp;' | replace: 'PD ', 'PD&nbsp;' | replace: 'Dr. ', 'Dr.&nbsp;' | replace: 'med. ', 'med.&nbsp;' }} — {{ pi.affiliation }}</span>{% endfor %}
+          </p>
+        </article>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- ══════════════════════════ PROTRAC ══════════════════════════ -->
+  <section id="protrac" class="intrac-section">
+    <div class="section-header"><h2>ProTraC — Integrated Research Training Group</h2><div class="line"></div></div>
+    <p class="intrac-lead">Programme for Translational Research and Career Development in Thromboinflammation. The doctoral training group of the DFG Collaborative Research Centre (SFB) 1784, InTraC, for PhD and MD candidates working at the interface of immunothrombosis and thromboinflammation, from molecular mechanism to the patient.</p>
+
+    <div class="intrac-prose">
+      <h3>The programme</h3>
+      <p>ProTraC is a structured, translational qualification programme. Its central aim is to train PhD and MD candidates in the scientific, methodological, and translational skills required to advance research in immunothrombosis and thromboinflammation, turning molecular and systems-level insight into clinical application, and so linking molecular biology, bioinformatics, and clinical medicine.</p>
+      <p>ProTraC is embedded within the Munich Medical Research School (MMRS) and its PhD programme "Medical Research, Cardiovascular Science" (PhD MR-CVS). Every ProTraC activity is recognised inside the MMRS curriculum, so CRC-specific training replaces rather than adds to existing requirements, avoiding additional workload for doctoral candidates. Beyond Munich, ProTraC connects to established graduate schools at every partner site.</p>
+    </div>
+
+    <dl class="intrac-glance">
+      <div class="intrac-glance__row"><dt>For</dt><dd>PhD and MD candidates</dd></div>
+      <div class="intrac-glance__row"><dt>Home</dt><dd>Munich Medical Research School (MMRS), PhD MR-CVS track</dd></div>
+      <div class="intrac-glance__row"><dt>Sites</dt><dd>Munich, Mainz, Würzburg, Berlin</dd></div>
+      <div class="intrac-glance__row"><dt>Format</dt><dd>Hybrid seminars; hands-on courses attended in person</dd></div>
+      <div class="intrac-glance__row"><dt>Credits</dt><dd>All activities documented and transferred via ECTS at all participating sites</dd></div>
+      <div class="intrac-glance__row"><dt>Supervision</dt><dd>A Thesis Advisory Committee (TAC) for every candidate</dd></div>
+    </dl>
+
+    <div class="intrac-prose">
+      <h3>Curriculum</h3>
+      <p>Training is organised into two tiers and evolves in step with the doctoral project: foundations first, specialisation next, dissemination and career transition last.</p>
+    </div>
+
+    <figure class="intrac-figure intrac-figure--wide">
+      <img src="{{ '/assets/images/projects/protrac-curriculum.png' | relative_url }}" alt="ProTraC curriculum overview" loading="lazy" />
+    </figure>
+
+    <div class="intrac-tier">
+      <div class="intrac-tier__box">
+        <div class="intrac-prose">
+          <h3>Tier 1: Basic training</h3>
+          <ul>
+            <li>Animal welfare and ethics to FELASA standards, covering both small-rodent and large-animal models</li>
+            <li>Experimental design, statistics, and data stewardship for reproducible science</li>
+            <li>Fundamentals of Clinical Trials, including Good Clinical Practice (GCP) and the regulatory landscape</li>
+            <li>Basic data science: FAIR principles, biostatistics, and computational literacy, anchored in project Z01</li>
+            <li>Scientific writing, presentation, project management, and career development</li>
+          </ul>
+        </div>
+      </div>
+      <div class="intrac-tier__box">
+        <div class="intrac-prose">
+          <h3>Tier 2: Advanced training</h3>
+          <p>All candidates complete at least four of the five advanced modules, selected to match their scientific focus and career trajectory. Each module runs as four hybrid seminars, archived as webinars in the InTraC knowledge base, and is combined with hands-on courses and cross-site lab rotations. The five modules are:</p>
+          <ul>
+            <li>Module 1, Molecular Thromboinflammation: the cellular and molecular drivers of thromboinflammation, taught with hands-on exposure to in vitro assays, flow-chamber systems, disease models, and confocal and intravital imaging.</li>
+            <li>Module 2, Bioinformatics and Artificial Intelligence: analysing complex multiOmics and high-dimensional data on the InTraC knowledge base, using unified Z01 workflows and AI-driven exploration tools, including an interactive analysis chatbot.</li>
+            <li>Module 3, Translational Large-Animal Research: planning and executing large-animal studies at ICON, with advanced imaging (CT, MRI, PET), PET-tracer principles, catheter methods, and comparative physiology of swine models.</li>
+            <li>Module 4, Clinical Therapeutics and Diagnostics: InTraC clinicians introduce disease mechanisms, diagnostics, and treatment across cardiology, neurology, and gastroenterology, grounding every project in an unmet clinical need.</li>
+            <li>Module 5, Intellectual Property and Technology Transfer: delivered with the LMU Patenting Office and the Helmholtz Innovation and Transfer Office, with regular sessions with industry partners on translational workflows from discovery to development.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="intrac-prose">
+      <p>As a cross-cutting element, every member completes at least one lab rotation in another InTraC laboratory, preferably at another site, distributed across A, B, and Z projects, with travel and accommodation costs covered. Dedicated Z01 and Z02 workshops teach FAIR data standards, translational model selection, and integration with the InTraC knowledge base. Optional PhD MR-CVS study blocks add cardiovascular breadth, and a monthly lecture series rotates across A, B, and Z project topics with international and industry speakers.</p>
+    </div>
+
+    <div class="intrac-twocol intrac-twocol--even">
+      <div class="intrac-prose">
+        <h3>Networking and events</h3>
+        <p>ProTraC is built to connect people across four cities through retreats, symposia, and a summer school where early-career researchers help set the agenda.</p>
+        <ul>
+          <li><strong>Annual InTraC retreat:</strong> The whole consortium meets to present progress. A dedicated ProTraC retreat runs first, bringing doctoral and MD candidates together with the Steering Committee and an invited external keynote speaker for mentoring, feedback, and networking.</li>
+          <li><strong>International thromboinflammation symposium:</strong> Held twice per funding period, bringing leading international experts together with InTraC researchers. Doctoral candidates present their work, initiate collaborations, and explore postdoctoral options.</li>
+          <li><strong>ProTraC summer school:</strong> A three-day, member-chosen programme held every two years on the transition to independence, with presentations of participants’ own work, group discussions with senior scientists, and dedicated sessions on leadership, mentoring, equality, and diversity.</li>
+          <li><strong>Lectures and journal clubs:</strong> A monthly lecture series and member-run journal clubs, with an Early Career Researcher Fund that lets members invite speakers of their choice and organise their own scientific events, fostering independence and visibility.</li>
+        </ul>
+      </div>
+      <div class="intrac-prose">
+        <h3>Fellowships</h3>
+        <p>ProTraC offers one-year fellowships that let excellent, preferably international, candidates enter InTraC. Fellows complete three eight-week laboratory rotations across different InTraC projects together with defined ProTraC training modules before committing to a project. There are two tracks:</p>
+        <ul>
+          <li><strong>Pre-Doctoral track (Rotation and Preparation):</strong> for outstanding master’s graduates. Fellows complete laboratory rotations and the basic ProTraC modules, then make an informed choice of PhD topic and supervisor.</li>
+          <li><strong>Pre-Postdoctoral track (Career Acceleration):</strong> for high-potential researchers finishing their PhD who want to establish an independent niche or bring new methods into InTraC. A protected phase for advanced skills such as grant writing, lab leadership, and mentoring.</li>
+        </ul>
+        <p>Even fellows who do not transition into a funded InTraC project leave with a formal certificate, documented training and rotations, and structured career mentoring within the InTraC network.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ APPLY ══════════════════════════ -->
+  <section id="apply" class="intrac-section">
+    <div class="intrac-apply">
+      <h2 class="intrac-apply__title">How to apply</h2>
+      <div class="intrac-apply__grid">
+        <div class="intrac-prose">
+          <h3>Who can join</h3>
+          <ul>
+            <li><strong>PhD candidates:</strong> Enrolled via the MMRS PhD MR-CVS programme, supervised by a Thesis Advisory Committee and collecting ECTS across the curriculum.</li>
+            <li><strong>MD candidates:</strong> Conduct an experimental doctoral thesis alongside medical studies, with full access to ProTraC training, retreats, and networking. MD candidates complete one year of basic training and at least one advanced module.</li>
+          </ul>
+          <p>ProTraC targets highly qualified graduates in life sciences, medicine, or related fields with strong motivation for thrombosis and inflammation research, with explicit efforts to attract women and candidates from underrepresented groups.</p>
+        </div>
+        <div class="intrac-prose">
+          <h3>Application materials</h3>
+          <p>Open positions are listed with the individual projects, where it is stated which projects are currently recruiting. Applications for all InTraC positions must be submitted through the official LMU Graduate Center application page:</p>
+          <a href="https://www.portal.graduatecenter.lmu.de/ocgc/intrac" class="intrac-apply__btn" target="_blank" rel="noopener">Apply via the LMU Graduate Center →</a>
+          <p>Applicants should prepare:</p>
+          <ul>
+            <li>A curriculum vitae (CV)</li>
+            <li>A cover or motivation letter written specifically for the project they are applying to</li>
+            <li>Two contacts who can provide letters of recommendation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>

@@ -5,6 +5,7 @@
     </a>
 
     <ul class="nav__links">
+      <li class="nav__link"><a href="{{ '/intrac/' | relative_url }}">InTraC</a></li>
       <li class="nav__link"><a href="{% if page.layout == 'home' %}#workflows{% else %}{{ '/docs/workflows' | relative_url }}{% endif %}">Workflows</a></li>
       <li class="nav__link"><a href="{% if page.layout == 'home' %}#training{% else %}{{ '/docs/training' | relative_url }}{% endif %}">Training</a></li>
       <li class="nav__link"><a href="{% if page.layout == 'home' %}#data-management{% else %}{{ '/docs/data-management' | relative_url }}{% endif %}">Data Management</a></li>
@@ -25,6 +26,7 @@
 
   <div class="nav__mobile" aria-hidden="true">
     <ul>
+      <li><a href="{{ '/intrac/' | relative_url }}">InTraC</a></li>
       <li><a href="{% if page.layout == 'home' %}#workflows{% else %}{{ '/docs/workflows' | relative_url }}{% endif %}">Workflows</a></li>
       <li><a href="{% if page.layout == 'home' %}#training{% else %}{{ '/docs/training' | relative_url }}{% endif %}">Training</a></li>
       <li><a href="{% if page.layout == 'home' %}#data-management{% else %}{{ '/docs/data-management' | relative_url }}{% endif %}">Data Management</a></li>

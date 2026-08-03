@@ -1,0 +1,475 @@
+// ─────────────────────────────────────────────────────────────
+// InTraC applicant page (/intrac/) — page-scoped styles.
+// Isolated: safe to delete together with the page when the
+// official CRC website goes live. Uses shared design tokens.
+// ─────────────────────────────────────────────────────────────
+
+// Part colours sampled from the project figures (A green · B amber · Z teal)
+:root {
+  --part-a: #3f8f6b;
+  --part-b: #cf8323;
+  --part-z: #3a9fbf;
+}
+
+.intrac-hero {
+  text-align: center;
+
+  &__logo {
+    width: 260px;
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto var(--space-lg);
+    border-radius: 0;
+  }
+
+  &__eyebrow {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--purple);
+    margin: 0 0 var(--space-md);
+  }
+}
+
+// Sticky in-page section nav, sits just below the main nav bar
+.intrac-subnav {
+  position: sticky;
+  top: var(--nav-height);
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--space-2xl);
+
+  &__inner {
+    display: flex;
+    gap: var(--space-xl);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    &::-webkit-scrollbar { display: none; }
+
+    a {
+      flex-shrink: 0;
+      padding: 14px 0;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-dim);
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+
+      &:hover { color: var(--purple); }
+    }
+  }
+
+  &__cta {
+    margin-left: auto;
+    color: var(--rose) !important;
+  }
+}
+
+.intrac-section {
+  padding: var(--space-2xl) 0;
+  scroll-margin-top: calc(var(--nav-height) + 60px);
+}
+
+.intrac-lead {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
+  color: var(--text-mid);
+  max-width: var(--max-width-narrow);
+  margin: 0 0 var(--space-2xl);
+  font-weight: 300;
+}
+
+// Generic prose block
+.intrac-prose {
+  max-width: var(--max-width-narrow);
+
+  h3 {
+    font-family: var(--font-mono);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--purple);
+    margin: var(--space-2xl) 0 var(--space-sm);
+  }
+
+  p { margin-bottom: var(--space-md); line-height: var(--line-height-relaxed); }
+
+  ul { margin: 0 0 var(--space-md); }
+
+  a { color: var(--purple); font-weight: 500; &:hover { color: var(--rose); } }
+
+  // Zero the top margin on each column's leading heading so side-by-side
+  // columns align at the top (was only applying to the first column).
+  > h3:first-child { margin-top: 0; }
+}
+
+// Programme overview blocks (A / B / Z) — accent-bordered rows
+.intrac-poverview {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: var(--space-lg);
+  align-items: start;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--purple);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-lg) var(--space-xl);
+  margin-bottom: var(--space-md);
+
+  &--a { border-left-color: var(--part-a); .intrac-poverview__tag { color: var(--part-a); } }
+  &--b { border-left-color: var(--part-b); .intrac-poverview__tag { color: var(--part-b); } }
+  &--z { border-left-color: var(--part-z); .intrac-poverview__tag { color: var(--part-z); } }
+
+  &__tag {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-top: 2px;
+  }
+
+  &__title {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    line-height: 1.2;
+    margin: 0 0 var(--space-sm);
+  }
+
+  p { font-size: 14px; line-height: 1.65; margin: 0; }
+}
+
+// Two-column layout (prose + aside)
+.intrac-twocol {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: var(--space-3xl);
+  align-items: start;
+  margin-top: var(--space-xl);
+
+  &--even { grid-template-columns: 1fr 1fr; }
+  .intrac-prose { max-width: none; }
+}
+
+// Consortium aside
+.intrac-consortium {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-xl);
+
+  &__title {
+    font-family: var(--font-mono);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--rose);
+    margin: 0 0 var(--space-md);
+  }
+
+  &__intro { font-size: 14px; line-height: 1.6; margin-bottom: var(--space-lg); }
+
+  &__people {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4px var(--space-md);
+    margin: 0;
+
+    dt {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-dim);
+      padding-top: 3px;
+    }
+    dd { margin: 0; font-size: 14px; color: var(--text); font-weight: 500; }
+  }
+
+  &__note { font-size: 12px; color: var(--text-dim); margin: var(--space-md) 0 0; }
+}
+
+// Recruiting flags
+.intrac-openflag {
+  font-size: var(--font-size-sm);
+  color: var(--text-mid);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--purple-dim);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--space-2xl);
+
+  a { color: var(--purple); font-weight: 600; }
+  &--none { background: var(--bg-card); }
+}
+
+.intrac-badge {
+  flex-shrink: 0;
+  align-self: flex-start;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-white);
+  background: var(--rose);
+  padding: 4px 10px;
+  border-radius: 100px;
+
+  &--inline { display: inline-block; vertical-align: middle; }
+}
+
+// Project groups
+.intrac-part {
+  margin-top: var(--space-3xl);
+
+  &__heading {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-2xl);
+    letter-spacing: -0.5px;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: var(--space-xl);
+  }
+
+  &__letter {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 2px;
+  }
+
+  &--a &__heading { border-bottom-color: var(--part-a); .intrac-part__letter { color: var(--part-a); } }
+  &--b &__heading { border-bottom-color: var(--part-b); .intrac-part__letter { color: var(--part-b); } }
+  &--z &__heading { border-bottom-color: var(--part-z); .intrac-part__letter { color: var(--part-z); } }
+}
+
+.intrac-project {
+  padding: var(--space-xl) 0 var(--space-2xl);
+  border-bottom: 1px solid var(--border);
+  scroll-margin-top: calc(var(--nav-height) + 60px);
+
+  &__head {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-lg);
+    margin-bottom: var(--space-lg);
+  }
+
+  &__code {
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-white);
+    background: var(--purple);
+    padding: 6px 12px;
+    border-radius: var(--border-radius);
+
+    &--a { background: var(--purple); }
+    &--b { background: var(--rose); }
+    &--z { background: var(--indigo); }
+  }
+
+  &__meta { flex: 1; }
+
+  &__title {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    line-height: 1.25;
+    margin: 0 0 4px;
+    color: var(--text);
+  }
+
+  &__pis {
+    font-size: 13px;
+    color: var(--text-mid);
+    font-weight: 500;
+    margin: 0;
+  }
+
+  &__figure {
+    margin: 0 0 var(--space-lg);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius-lg);
+    padding: var(--space-sm);
+
+    img { width: 100%; border-radius: var(--border-radius); }
+  }
+
+  &__body {
+    max-width: var(--max-width-narrow);
+    margin: 0 0 var(--space-md);
+
+    p {
+      font-size: var(--font-size-base);
+      line-height: var(--line-height-relaxed);
+      color: var(--text-mid);
+      margin: 0 0 var(--space-md);
+      &:last-child { margin-bottom: 0; }
+    }
+  }
+
+  &__affils {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 0;
+
+    span { font-size: 12px; color: var(--text-dim); }
+  }
+}
+
+// ProTraC at-a-glance — single panel with rows
+.intrac-glance {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-sm) var(--space-xl);
+  margin-bottom: var(--space-2xl);
+
+  &__row {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: var(--space-lg);
+    align-items: baseline;
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--border);
+
+    &:last-child { border-bottom: none; }
+
+    dt {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-dim);
+    }
+    dd { margin: 0; font-size: 15px; color: var(--text); font-weight: 500; }
+  }
+}
+
+// ProTraC curriculum tiers — full-width stacked boxes
+.intrac-tier {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+
+  &__box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius-lg);
+    padding: var(--space-xl) var(--space-2xl);
+
+    .intrac-prose { max-width: none; }
+  }
+}
+
+.intrac-figure {
+  margin: var(--space-xl) 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-sm);
+
+  img { width: 100%; border-radius: var(--border-radius); }
+  &--wide { max-width: 100%; }
+}
+
+// Apply block
+.intrac-apply {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius-xl);
+  padding: var(--space-3xl);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--purple), var(--rose));
+  }
+
+  &__title {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-3xl);
+    letter-spacing: -0.5px;
+    margin: 0 0 var(--space-xl);
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3xl);
+    .intrac-prose { max-width: none; }
+  }
+
+  &__note { font-size: 14px; color: var(--text-mid); }
+
+  // Active state (once the real URL is set and aria-disabled removed): solid primary button.
+  // Scoped as `& &__btn` (.intrac-apply .intrac-apply__btn) so it outranks the
+  // `.intrac-prose a` link colour it would otherwise inherit (purple-on-purple = invisible).
+  & &__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-top: var(--space-sm);
+    padding: 12px 24px;
+    border-radius: var(--border-radius);
+    font-family: var(--font-mono);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    text-decoration: none;
+    background: var(--purple);
+    color: var(--color-white);
+    border: 1px solid var(--purple);
+    transition: all var(--transition-base);
+
+    &:hover { color: var(--color-white); transform: translateY(-2px); box-shadow: 0 6px 18px rgba(74, 75, 154, 0.28); }
+
+    // Placeholder state — clearly visible but marked as not-yet-available
+    &[aria-disabled="true"] {
+      background: var(--bg-card-hover);
+      color: var(--text-mid);
+      border: 1px dashed var(--border-accent);
+      cursor: not-allowed;
+      &:hover { transform: none; box-shadow: none; color: var(--text-mid); }
+    }
+  }
+
+  &__todo { font-size: 12px; color: var(--text-dim); margin-top: var(--space-sm); }
+}
+
+// ── Responsive ──
+@media (max-width: 992px) {
+  .intrac-twocol,
+  .intrac-twocol--even { grid-template-columns: 1fr; gap: var(--space-xl); }
+  .intrac-apply__grid { grid-template-columns: 1fr; gap: var(--space-xl); }
+}
+
+@media (max-width: 768px) {
+  .intrac-apply { padding: var(--space-xl); }
+  .intrac-project__head { flex-wrap: wrap; gap: var(--space-md); }
+  .intrac-subnav__cta { margin-left: var(--space-xl); }
+  .intrac-tier__box { padding: var(--space-lg); }
+  .intrac-glance__row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+  .intrac-poverview { grid-template-columns: 1fr; gap: var(--space-sm); }
+}
