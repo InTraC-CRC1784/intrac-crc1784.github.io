@@ -21,6 +21,8 @@
   part: A
   title: "Targeting tissue factor in thromboinflammatory signalling"
   image: A02.png
+  width: 1468
+  height: 471
   accepting: true
   accent: "#68a488"
   ink: "#ffffff"
@@ -36,6 +38,8 @@
   part: A
   title: "Circadian regulation of immunothrombosis and thromboinflammation"
   image: A03.png
+  width: 1429
+  height: 459
   accepting: true
   accent: "#68a489"
   ink: "#ffffff"
@@ -53,6 +57,8 @@
   part: A
   title: "Translating hibernation-induced thromboprotective mechanisms: from bears to patients"
   image: A04.png
+  width: 1479
+  height: 474
   accepting: true
   accent: "#68a387"
   ink: "#ffffff"
@@ -69,6 +75,8 @@
   part: A
   title: "The role of microbiota-derived tryptophan metabolites in promoting thromboinflammation after stroke"
   image: A05.png
+  width: 1996
+  height: 672
   accepting: true
   accent: "#69a58a"
   ink: "#1a1a2e"
@@ -84,6 +92,8 @@
   part: A
   title: "Dissecting and targeting platelet GPIb-V-IX function in thrombo-inflammation"
   image: A06.png
+  width: 1996
+  height: 672
   accepting: true
   accent: "#69a58a"
   ink: "#1a1a2e"
@@ -100,6 +110,8 @@
   part: A
   title: "Neutrophils regulate platelet production – impact on cardiovascular and infectious diseases"
   image: A07.png
+  width: 1949
+  height: 625
   accepting: true
   accent: "#69a388"
   ink: "#ffffff"
@@ -115,6 +127,8 @@
   part: A
   title: "Directed platelet migration as driver of immunothrombosis"
   image: A08.png
+  width: 1411
+  height: 443
   accepting: true
   accent: "#63977c"
   ink: "#ffffff"
@@ -131,6 +145,8 @@
   part: B
   title: "Thromboinflammation at the cerebrovascular interface: linking inflammation and neurological deterioration after stroke"
   image: B01.png
+  width: 1489
+  height: 476
   accepting: true
   accent: "#fac283"
   ink: "#1a1a2e"
@@ -148,6 +164,8 @@
   part: B
   title: "Thromboinflammation in stroke – a (reverse)-translational study to identify circulating biomarkers and treatment targets"
   image: B02.png
+  width: 1510
+  height: 483
   accepting: true
   accent: "#fac282"
   ink: "#1a1a2e"
@@ -163,6 +181,8 @@
   part: B
   title: "The role of Bruton's tyrosine kinase in thromboinflammation"
   image: B03.png
+  width: 1484
+  height: 476
   accepting: true
   accent: "#ecc184"
   ink: "#1a1a2e"
@@ -179,6 +199,8 @@
   part: B
   title: "Stasis-induced endothelial activation and thromboinflammation: implications for atrial fibrillation and venous thrombosis"
   image: B04.png
+  width: 1444
+  height: 461
   accepting: true
   accent: "#fac283"
   ink: "#1a1a2e"
@@ -194,6 +216,8 @@
   part: B
   title: "Endothelial cell signalling in thromboinflammation"
   image: B05.png
+  width: 7795
+  height: 2492
   accepting: false
   accent: "#f9c07e"
   ink: "#1a1a2e"
@@ -209,6 +233,8 @@
   part: B
   title: "Non-classical monocytes as local orchestrators of the thrombotic milieu during the transition from thrombus formation to resolution"
   image: B06.png
+  width: 1463
+  height: 562
   accepting: true
   accent: "#fac282"
   ink: "#1a1a2e"
@@ -226,6 +252,8 @@
   part: B
   title: "Engineering immune cells as micropharmacies for microvascular thrombolysis"
   image: B07.png
+  width: 1496
+  height: 478
   accepting: true
   accent: "#fac282"
   ink: "#1a1a2e"
@@ -241,6 +269,8 @@
   part: B
   title: "Thromboinflammatory mechanisms of pancreatitis progression and associated splanchnic and portal vein thrombosis"
   image: B08.png
+  width: 1484
+  height: 570
   accepting: true
   accent: "#fac282"
   ink: "#1a1a2e"
@@ -257,6 +287,8 @@
   part: B
   title: "siRNA therapy targeting endothelial IgM receptors to treat and prevent thromboinflammation"
   image: B09.png
+  width: 1473
+  height: 471
   accepting: true
   accent: "#fac283"
   ink: "#1a1a2e"
@@ -272,6 +304,8 @@
   part: Z
   title: "Data integration and analysis service platform for target and biomarker discovery"
   image: Z01.png
+  width: 1316
+  height: 421
   accepting: false
   accent: "#81c5df"
   ink: "#1a1a2e"
@@ -287,6 +321,8 @@
   part: Z
   title: "Large animal disease models of immunothrombosis and thromboinflammation for target validation, imaging diagnostics, and therapeutic testing"
   image: Z02.png
+  width: 1504
+  height: 511
   accepting: true
   accent: "#82c5df"
   ink: "#1a1a2e"

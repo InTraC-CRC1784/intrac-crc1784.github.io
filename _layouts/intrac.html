@@ -161,7 +161,8 @@ layout: default
           {% if proj.image %}
           <figure class="intrac-project__figure" style="border-color: {{ proj.accent }};">
             <img src="{{ '/assets/images/projects/' | append: proj.image | relative_url }}"
-                 alt="Graphical abstract of project {{ proj.code }}: {{ proj.title }}" loading="lazy" />
+                 alt="Graphical abstract of project {{ proj.code }}: {{ proj.title }}"
+                 width="{{ proj.width }}" height="{{ proj.height }}" loading="lazy" />
           </figure>
           {% endif %}
 
@@ -204,7 +205,7 @@ layout: default
     </div>
 
     <figure class="intrac-figure intrac-figure--wide">
-      <img src="{{ '/assets/images/projects/protrac-curriculum.png' | relative_url }}" alt="ProTraC curriculum overview" loading="lazy" />
+      <img src="{{ '/assets/images/projects/protrac-curriculum.png' | relative_url }}" alt="ProTraC curriculum overview" width="1138" height="910" loading="lazy" />
     </figure>
 
     <div class="intrac-tier">
